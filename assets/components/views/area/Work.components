@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "id": "52d43548-dee7-47f9-9768-a298d02508ee",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-26T15:46:06.985Z",
+      "updateAt": "2025-06-26T15:46:06.985Z",
+      "components": [
+        {
+          "componentId": "760bcf30-bb89-4ec4-b9b3-e460620f0d93"
+        }
+      ],
+      "layoutType": "grid",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "760bcf30-bb89-4ec4-b9b3-e460620f0d93",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-26T15:46:23.981Z",
+      "updateAt": "2025-06-26T15:46:23.981Z",
+      "title": "小紅書",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "519bbdac-d116-430a-a2b2-a5a8e18cee18",
+        "options": {
+          "filePath": "assets/components/views/area/小紅書.components",
+          "fileName": "小紅書.components"
+        }
+      }
+    }
+  ],
+  "rootComponentId": "52d43548-dee7-47f9-9768-a298d02508ee"
+}

@@ -1,0 +1,781 @@
+{
+  "components": [
+    {
+      "id": "3c1327c0-1b64-494c-a51e-a03e7c0c4ef3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:00:13.078Z",
+      "updateAt": "2025-05-13T01:00:13.078Z",
+      "components": [
+        {
+          "componentId": "038ff73f-1f1f-4e79-941f-c1cdce0de102",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 27,
+              "w": 4,
+              "h": 17
+            },
+            "laptop": {
+              "x": 0,
+              "y": 20,
+              "w": 12,
+              "h": 22
+            }
+          }
+        },
+        {
+          "componentId": "5d279560-5bb2-42a5-968e-0f2f9ac764c9",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 22,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 3,
+              "y": 9,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "e8cd4140-3587-4736-a0d5-9f92ad259236",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 22,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 9,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "c89ef2d5-ac43-456e-8c13-26c330ac5de9",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 44,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 42,
+              "w": 6,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "acbf07e8-242e-4345-b91f-1d88851f823b",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 17,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 6,
+              "y": 9,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "9b14037f-a237-4073-b455-023571e723a1",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 17,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 9,
+              "y": 9,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "315ba3f5-8614-4e4d-937d-6085a3de8c32",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 44,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 6,
+              "y": 42,
+              "w": 6,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "02ea3405-1a0b-4f35-9701-7fb85c07a0dd",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 7
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 9
+            }
+          }
+        },
+        {
+          "componentId": "f426f7fb-b625-4f6c-8170-480fe9cedb42",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 7,
+              "w": 4,
+              "h": 10
+            },
+            "laptop": {
+              "x": 0,
+              "y": 13,
+              "w": 12,
+              "h": 7
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "038ff73f-1f1f-4e79-941f-c1cdce0de102",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:01:10.457Z",
+      "updateAt": "2025-05-13T01:01:10.457Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date: YYYY-MM-DD}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "121"
+          }
+        },
+        {
+          "id": "07858e72-c785-497a-b3b8-067a17c634d2",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "85"
+          }
+        },
+        {
+          "id": "ebd154e8-63ae-4cd6-8a67-2ad0d10274b4",
+          "name": "學費",
+          "isShow": false,
+          "type": "number",
+          "options": {}
+        },
+        {
+          "id": "2330c8c6-3681-4f71-8a20-f72009fecad8",
+          "name": "歌曲",
+          "isShow": true,
+          "type": "text",
+          "options": {
+            "width": "299"
+          }
+        },
+        {
+          "id": "6e1bc60a-f00b-4cca-9403-b1a76b85c89c",
+          "name": "時長 (Min)",
+          "isShow": true,
+          "type": "number",
+          "options": {}
+        },
+        {
+          "id": "15e7cf7a-4212-43e4-bf7d-477acf0a784f",
+          "name": "活動日期",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "2dd3b02f-afc7-4c63-a9e7-d0618c029cd7",
+          "path": "assets/template/Interest/學鼓日志 模板.md",
+          "name": "學鼓日志 模板.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "b57ebbf4-9d74-49ae-a37d-11b927da8cad",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8f15df1f-89e2-4194-b76b-620456611f06",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.parent}",
+            "value": "assets/Data/Interest/Drum",
+            "conditions": []
+          },
+          {
+            "id": "869f5a05-9519-4327-928e-02500cc9f8f1",
+            "type": "group",
+            "operator": "or",
+            "conditions": [
+              {
+                "id": "d7981438-b790-45ac-b1bc-8cbb5787c9dc",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#練鼓",
+                "conditions": []
+              },
+              {
+                "id": "9e699892-a2c8-4d7c-801d-66a40cc234b9",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#學鼓",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "assets/Data/Interest/Drum"
+      },
+      "defaultTemplate": "2dd3b02f-afc7-4c63-a9e7-d0618c029cd7",
+      "sort": {
+        "orders": [
+          {
+            "id": "e4011ba7-d203-45e3-be70-d9fc99733721",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d279560-5bb2-42a5-968e-0f2f9ac764c9",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:08:29.437Z",
+      "updateAt": "2025-05-13T01:08:29.437Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "24e98a9b-0200-4023-a02d-acd5f71ba918",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "fb5208ad-df32-4410-b194-04887f5af882",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#練鼓",
+              "conditions": []
+            },
+            {
+              "id": "f226ec6a-f63f-4ea2-877a-5d28bc896efe",
+              "type": "filter",
+              "operator": "equals",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        },
+        "aggregationType": "sum",
+        "property": "時長 (Min)"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "3c2114e6-8f2c-4fa6-831c-efec4cec666b",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "練鼓時長"
+    },
+    {
+      "id": "e8cd4140-3587-4736-a0d5-9f92ad259236",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:09:08.886Z",
+      "updateAt": "2025-05-13T01:09:08.886Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "24e98a9b-0200-4023-a02d-acd5f71ba918",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "c27fc165-3837-4d66-8192-3a1d19ee8b73",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#練鼓",
+              "conditions": []
+            },
+            {
+              "id": "8bb4e070-4373-48db-8b8f-f44e6fb0e5fb",
+              "type": "filter",
+              "operator": "equals",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "3c2114e6-8f2c-4fa6-831c-efec4cec666b",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "練鼓次數"
+    },
+    {
+      "id": "c89ef2d5-ac43-456e-8c13-26c330ac5de9",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T09:03:18.974Z",
+      "updateAt": "2025-05-13T09:03:18.974Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "003336ed-2116-4dde-96dd-b06ca1e99f2c",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "59b1a2b3-8e27-4a23-adae-e826fbe9a992",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#練鼓",
+              "conditions": []
+            },
+            {
+              "id": "f68a888f-ee71-4242-96a6-6119fe10fa65",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        },
+        "property": "花費"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 280,
+        "filter": {
+          "id": "a67d4163-cee2-44e3-b4ad-bd2b976e6b4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "$"
+    },
+    {
+      "id": "acbf07e8-242e-4345-b91f-1d88851f823b",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:09:08.886Z",
+      "updateAt": "2025-05-13T01:09:08.886Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "24e98a9b-0200-4023-a02d-acd5f71ba918",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "c27fc165-3837-4d66-8192-3a1d19ee8b73",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#學鼓",
+              "conditions": []
+            },
+            {
+              "id": "8bb4e070-4373-48db-8b8f-f44e6fb0e5fb",
+              "type": "filter",
+              "operator": "equals",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "3c2114e6-8f2c-4fa6-831c-efec4cec666b",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "學鼓次數"
+    },
+    {
+      "id": "9b14037f-a237-4073-b455-023571e723a1",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T01:08:29.437Z",
+      "updateAt": "2025-05-13T01:08:29.437Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "24e98a9b-0200-4023-a02d-acd5f71ba918",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "fb5208ad-df32-4410-b194-04887f5af882",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#學鼓",
+              "conditions": []
+            },
+            {
+              "id": "f14472f6-0625-41bf-9ce9-621cd31162ff",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        },
+        "aggregationType": "sum",
+        "property": "時長 (Min)"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "3c2114e6-8f2c-4fa6-831c-efec4cec666b",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "學鼓時長"
+    },
+    {
+      "id": "315ba3f5-8614-4e4d-937d-6085a3de8c32",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T09:03:18.974Z",
+      "updateAt": "2025-05-13T09:03:18.974Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "003336ed-2116-4dde-96dd-b06ca1e99f2c",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "59b1a2b3-8e27-4a23-adae-e826fbe9a992",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#學鼓",
+              "conditions": []
+            },
+            {
+              "id": "f68a888f-ee71-4242-96a6-6119fe10fa65",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.parent}",
+              "value": "assets/Data/Interest/Drum",
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        },
+        "property": "學費"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 280,
+        "filter": {
+          "id": "a67d4163-cee2-44e3-b4ad-bd2b976e6b4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "$"
+    },
+    {
+      "id": "02ea3405-1a0b-4f35-9701-7fb85c07a0dd",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:31:49.007Z",
+      "updateAt": "2025-05-13T16:31:49.007Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "top",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "db3eea87-152b-4ec6-8f5c-1596c18afed5",
+        "options": {}
+      },
+      "cover": "assets/Better library.library/images/MAMQO7JJC4CWD.info/weston-m-3pCRW_JRKM8-unsplash.jpg"
+    },
+    {
+      "id": "f426f7fb-b625-4f6c-8170-480fe9cedb42",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:34:42.953Z",
+      "updateAt": "2025-05-13T16:34:42.953Z",
+      "chartType": "heatmap",
+      "filter": {
+        "id": "6bdd1fc8-3621-41e5-83cd-07509fc7971d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "e74a5846-ecb6-4733-8eef-98cc1ec2c82e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "assets/Data/Interest/Drum",
+            "conditions": []
+          },
+          {
+            "id": "250ac399-9667-4fa6-b70b-b53a7bd14761",
+            "type": "group",
+            "operator": "or",
+            "conditions": [
+              {
+                "id": "34331b2a-7173-4bd3-9220-6cd02c12a578",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#學鼓",
+                "conditions": []
+              },
+              {
+                "id": "f1643e34-0faa-4120-803d-c04c368bc746",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#練鼓",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      },
+      "labelProperty": "活動日期",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {
+        "minValue": 0,
+        "maxValue": 1,
+        "cellSize": 12,
+        "numberOfSegments": 1,
+        "fullWidth": false,
+        "showSplitLine": false,
+        "hideChartLabel": false,
+        "firstDayOfWeek": 1,
+        "dateRange": {
+          "type": "latest",
+          "latestValue": "180",
+          "latestUnit": "day"
+        }
+      }
+    }
+  ],
+  "rootComponentId": "3c1327c0-1b64-494c-a51e-a03e7c0c4ef3"
+}

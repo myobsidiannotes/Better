@@ -1,0 +1,17 @@
+{
+  "id": "c1a5dfe3-ebc9-4e21-b2d6-e92301f13258",
+  "fields": [],
+  "actions": [
+    {
+      "id": "d5989394-35e6-466b-804e-16172595635a",
+      "type": "createFile",
+      "targetFolder": "",
+      "fileName": "",
+      "filePath": "assets/Data/Interest/Drum/{{date}}.md",
+      "contentTemplateSource": "file",
+      "templateFile": "assets/template/Interest/學鼓日志 模板.md",
+      "openPageIn": "tab"
+    }
+  ],
+  "autoSubmit": true
+}

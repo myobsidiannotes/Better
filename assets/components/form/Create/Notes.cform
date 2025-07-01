@@ -1,0 +1,19 @@
+{
+  "id": "60246fa6-1326-4c49-a275-fc05d39383a2",
+  "fields": [],
+  "actions": [
+    {
+      "id": "65133128-46b4-4341-83e2-2863f4d69925",
+      "type": "insertText",
+      "targetFolder": "",
+      "fileName": "",
+      "openPageIn": "tab",
+      "filePath": "Notes/{{date:YYYY-MM-DDTHHmmss}}.md",
+      "contentTemplateSource": "file",
+      "templateFile": "assets/template/Work/notes template.md",
+      "newFileTemplate": "assets/template/Work/notes template.md",
+      "content": " "
+    }
+  ],
+  "autoSubmit": true
+}

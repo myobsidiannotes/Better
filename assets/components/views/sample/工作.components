@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "id": "c85cbda2-e747-420e-b54f-bd67a3a302bd",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T08:01:51.193Z",
+      "updateAt": "2024-05-13T08:01:51.193Z",
+      "components": [
+        {
+          "componentId": "33233918-f619-42d7-8f14-26fc1579abe3"
+        },
+        {
+          "componentId": "ea18c26e-5756-4ffe-9de9-3b38976de499"
+        },
+        {
+          "componentId": "f13745c4-8e4e-4a05-aa9a-85734d8685f8"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "33233918-f619-42d7-8f14-26fc1579abe3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-07T17:24:18.073Z",
+      "updateAt": "2025-05-07T17:24:18.073Z",
+      "components": [],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "ea18c26e-5756-4ffe-9de9-3b38976de499",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-07T17:24:36.939Z",
+      "updateAt": "2025-05-07T17:24:36.939Z",
+      "components": [],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "f13745c4-8e4e-4a05-aa9a-85734d8685f8",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-07T17:27:11.490Z",
+      "updateAt": "2025-05-07T17:27:11.490Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "6e404211-acc5-4a2f-9015-411f4b62b02a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "a015919c-876e-4dbd-8851-9d316bd8926f",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      }
+    }
+  ],
+  "rootComponentId": "c85cbda2-e747-420e-b54f-bd67a3a302bd"
+}

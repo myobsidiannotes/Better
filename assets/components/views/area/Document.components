@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "id": "9d9825a1-0cde-4451-89d6-b2586edc631a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-21T17:49:38.295Z",
+      "updateAt": "2025-05-21T17:49:38.296Z",
+      "components": [
+        {
+          "componentId": "aef22b10-2cd6-400f-8a51-9f7e21430b83",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 24
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "aef22b10-2cd6-400f-8a51-9f7e21430b83",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-26T07:48:10.969Z",
+      "updateAt": "2025-06-26T07:48:10.971Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    }
+  ],
+  "rootComponentId": "9d9825a1-0cde-4451-89d6-b2586edc631a"
+}

@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fdcdd060b08454a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "952ee018b6f20fcc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "Home.components"
+              },
+              "pinned": true,
+              "icon": "gantt-chart",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "0266b84215651c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main/Mine/Useful tools and resources/Software.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Software"
+            }
+          },
+          {
+            "id": "7a7fd0cb29df9899",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Notes/Kanban/Main Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Main Kanban"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6198d0297578086a",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d3683b9f3d8e1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f05b6daca1261e95",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f71efd59d6e6f3c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5
+  },
+  "right": {
+    "id": "d0e955a247efcd70",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc65229d6dcb1ba9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b468ca3976d0425b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "obsid",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b80a9de91ee74dbb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6e3298ddb466e2bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "components/view/Test.components",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Test"
+            }
+          },
+          {
+            "id": "e0a3eb9a46cfce35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Daily news.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Daily news 的反向链接列表"
+            }
+          },
+          {
+            "id": "b1581be26f826779",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Daily news.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Daily news 的出链列表"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "templates:插入模板": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0266b84215651c19",
+  "lastOpenFiles": [
+    "Notes/Kanban/Main Kanban.md",
+    "Home.components",
+    "Main/Mine/Useful tools and resources/Software.md",
+    "assets/components/views/area/Work.components",
+    "assets/Pages/area/小紅書.md",
+    "assets/components/views/area/小紅書.components",
+    "Main/Mine/文字/情感/Notes/小紅書 - 2025-07-01.md",
+    "assets/components/views/area/Notes.components",
+    "assets/components/views/interest/interest-index.components",
+    "assets/components/views/Life/Journal.components",
+    "assets/Pages/area/旅遊.md",
+    "assets/components/views/area/旅游.components",
+    "assets/Data/Life/Traval/日本沖繩 20240918-0922.md",
+    "assets/Data/Life/Traval/廣融滑雪 20241214-1215.md",
+    "assets/Data/Life/Traval/廣融滑雪 20250131-0202.md",
+    "assets/Data/Life/Traval/廣融滑雪 20250329-0330.md",
+    "assets/Data/Life/Traval/廣融滑雪 20250517-0518.md",
+    "assets/Data/Life/Journal/day/2025-07-01.md",
+    "assets/components/form/Create/Life/Journal.cform",
+    "assets/template/Life/Journal template.md",
+    "assets/components/views/interest/interest-statistics.components",
+    "Notes/2025-07-01.md",
+    "assets/components/form/Create/Interest/練鼓.cform",
+    "assets/Data/Interest/Drum/2025-07-01.md",
+    "assets/template/Interest/滑雪日志 模板.md",
+    "assets/Data/Interest/Ski/No. hi-.md",
+    "assets/Data/Interest/Diving/No. hi-.md",
+    "assets/template/Interest/潛水日志 模板.md",
+    "assets/Data/Interest/Diving/No. hi-3.md",
+    "assets/template/Interest/學鼓日志 模板.md",
+    "assets/Data/Interest/Drum/2025-06-21.md",
+    "assets/Data/Interest/Drum/2025-06-24.md",
+    "assets/Data/Interest/Drum/2025-06-29.md",
+    "assets/Data/Interest/Drum/2022-12-28.md",
+    "assets/Data/Interest/Drum/2023-03-09.md",
+    "assets/Data/Interest/Drum/2023-06-07.md",
+    "assets/Better library.library/images/MCDKOU97WUEOS.info/Deepseek7个爆款文案生成指令_5_AI创收实验室_来自小红书网页版_thumbnail.png",
+    "assets/Better library.library/images/MCDKOU972WOI6.info/Deepseek7个爆款文案生成指令_4_AI创收实验室_来自小红书网页版_thumbnail.png",
+    "assets/Better library.library/images/MCDKOU962OH5D.info/Deepseek7个爆款文案生成指令_2_AI创收实验室_来自小红书网页版_thumbnail.png",
+    "assets/Better library.library/images/MCDKOU962OH5D.info/Deepseek7个爆款文案生成指令_2_AI创收实验室_来自小红书网页版.jpg",
+    "assets/Better library.library/images/MCDKOU972WOI6.info/Deepseek7个爆款文案生成指令_4_AI创收实验室_来自小红书网页版.jpg",
+    "assets/Better library.library/images/MCDKOU97WUEOS.info/Deepseek7个爆款文案生成指令_5_AI创收实验室_来自小红书网页版.jpg",
+    "assets/Better library.library/images/MCDKOU96TNCFG.info/Deepseek7个爆款文案生成指令_3_AI创收实验室_来自小红书网页版_thumbnail.png",
+    "assets/Better library.library/images/MCDKOU96TNCFG.info/Deepseek7个爆款文案生成指令_3_AI创收实验室_来自小红书网页版.jpg",
+    "未命名.canvas",
+    "assets/Better library.library/images/MCC64VIZ1ALC3.info/layout-icons.png",
+    "assets/Better library.library/images/MCC5THG8H3AHJ.info/精神内耗的人都有一个特点：怕！_1_秋洺高效成长_来自小红书网页版_thumbnail.png"
+  ]
+}

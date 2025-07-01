@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "id": "27b2f9d1-8ef5-4299-8cff-7324083bdf31",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:42:18.358Z",
+      "updateAt": "2025-05-13T06:42:18.358Z",
+      "components": [
+        {
+          "componentId": "82406e42-3cc0-4d69-86cd-cd006594fe7c",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 6,
+              "w": 4,
+              "h": 23
+            },
+            "laptop": {
+              "x": 0,
+              "y": 6,
+              "w": 6,
+              "h": 26
+            }
+          }
+        },
+        {
+          "componentId": "406bf158-71d5-4821-82b8-7eb3613df1e3",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 6
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 6
+            }
+          }
+        },
+        {
+          "componentId": "3b8f46b9-bf42-4d6c-bf9c-e4f933f64b09",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 35,
+              "w": 4,
+              "h": 31
+            },
+            "laptop": {
+              "x": 6,
+              "y": 6,
+              "w": 6,
+              "h": 26
+            }
+          }
+        },
+        {
+          "componentId": "b3310b1c-98a0-405c-8b90-c7766b88faaf",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 29,
+              "w": 4,
+              "h": 6
+            },
+            "laptop": {
+              "x": 6,
+              "y": 0,
+              "w": 6,
+              "h": 6
+            }
+          }
+        },
+        {
+          "componentId": "634b822b-ed68-408e-a3cf-23babc52e727",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 66,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 32,
+              "w": 6,
+              "h": 6
+            }
+          }
+        },
+        {
+          "componentId": "46ede3e8-3a75-4920-83c6-56acc450e9ca",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 70,
+              "w": 4,
+              "h": 35
+            },
+            "laptop": {
+              "x": 0,
+              "y": 38,
+              "w": 6,
+              "h": 28
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "82406e42-3cc0-4d69-86cd-cd006594fe7c",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:42:31.137Z",
+      "updateAt": "2025-05-13T06:42:31.137Z",
+      "maxHeight": 1000,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/Pages/interest/滑雪.md"
+    },
+    {
+      "id": "406bf158-71d5-4821-82b8-7eb3613df1e3",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:42:53.279Z",
+      "updateAt": "2025-05-13T06:42:53.279Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "9ad73c83-a0ae-4f51-b86c-71c2fba44a76",
+        "options": {}
+      },
+      "cover": "assets/Better library.library/images/MAL9WHPHYYW6X.info/Snow-unsplash.jpg"
+    },
+    {
+      "id": "3b8f46b9-bf42-4d6c-bf9c-e4f933f64b09",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:43:01.063Z",
+      "updateAt": "2025-05-13T06:43:01.063Z",
+      "maxHeight": 1000,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/Pages/interest/潛水.md"
+    },
+    {
+      "id": "b3310b1c-98a0-405c-8b90-c7766b88faaf",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:43:18.129Z",
+      "updateAt": "2025-05-13T06:43:18.129Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "def437ab-9c93-4bdc-8e1d-41b733fcb4b1",
+        "options": {}
+      },
+      "cover": "assets/Better library.library/images/MALCEWA3YSSR7.info/sam-shin-L2KlJu1AWCY-unsplash.jpg"
+    },
+    {
+      "id": "634b822b-ed68-408e-a3cf-23babc52e727",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:23:55.956Z",
+      "updateAt": "2025-05-13T16:23:55.956Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "top",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "609fe342-e76e-4432-9b65-6ebc44c3c6e8",
+        "options": {}
+      },
+      "cover": "assets/Better library.library/images/MAMQO7JI6UUUM.info/aleksandr-popov-JhYnL-BiP18-unsplash.jpg"
+    },
+    {
+      "id": "46ede3e8-3a75-4920-83c6-56acc450e9ca",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:45:42.112Z",
+      "updateAt": "2025-05-13T16:45:42.112Z",
+      "maxHeight": 1000,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/Pages/interest/鼓.md"
+    }
+  ],
+  "rootComponentId": "27b2f9d1-8ef5-4299-8cff-7324083bdf31"
+}

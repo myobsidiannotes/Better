@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "id": "8a763d59-fbc8-4ddf-8f4a-e027201f4568",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T15:58:11.662Z",
+      "updateAt": "2025-05-13T15:58:11.662Z",
+      "components": [
+        {
+          "componentId": "3f1fd2bc-c216-48b7-9b2a-6fdd10ef8df9",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 45
+            },
+            "laptop": {
+              "x": 2,
+              "y": 0,
+              "w": 7,
+              "h": 23
+            }
+          }
+        },
+        {
+          "componentId": "dcc91258-80eb-4473-97cd-fcedc12ed7b5",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 45,
+              "w": 4,
+              "h": 25
+            },
+            "laptop": {
+              "x": 2,
+              "y": 23,
+              "w": 7,
+              "h": 21
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "dcc91258-80eb-4473-97cd-fcedc12ed7b5",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:00:18.944Z",
+      "updateAt": "2025-05-13T16:00:18.944Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date: YYYY-MM-DD}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "a9a0cb43-d953-4e7d-9336-7dd52a4daa63",
+          "path": "assets/template/日記/Journal template.md",
+          "name": "Journal template.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "dateProperty": "${file.basename}",
+        "firstDayOfWeek": 7,
+        "calendarViewType": "month",
+        "cardColorFrom": "default"
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "2730659f-544d-4f6b-8403-6699786b6596",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "ef772ab5-a39e-4abf-a97a-9650773ce9f5",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "assets/Data/Life/Journal/day",
+            "conditions": []
+          }
+        ]
+      },
+      "loadLimitPerPage": 50,
+      "sort": {
+        "orders": [
+          {
+            "id": "c577403b-430d-42eb-add5-89f75a4c7b84",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "assets/Data/Life/Journal/day"
+      },
+      "defaultTemplate": "a9a0cb43-d953-4e7d-9336-7dd52a4daa63"
+    },
+    {
+      "id": "3f1fd2bc-c216-48b7-9b2a-6fdd10ef8df9",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-13T16:07:24.311Z",
+      "updateAt": "2025-05-13T16:07:24.311Z",
+      "tasks": [
+        {
+          "id": "571f7457-d268-48df-afbd-b8c1dfc417ac",
+          "name": "運動1分鐘",
+          "options": {}
+        },
+        {
+          "id": "2113083f-2251-44f4-b56a-9c8877ef891b",
+          "name": "學習1分鐘",
+          "options": {}
+        },
+        {
+          "id": "a7a06197-0af0-4805-9896-efa2e1583065",
+          "name": "規劃1分鐘",
+          "options": {}
+        },
+        {
+          "id": "191067d8-54f6-4b14-866f-104a54a67974",
+          "name": "12:15上床 12:30睡觉",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "title": "成為更好的自己"
+    }
+  ],
+  "rootComponentId": "8a763d59-fbc8-4ddf-8f4a-e027201f4568"
+}

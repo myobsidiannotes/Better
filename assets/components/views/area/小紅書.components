@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "id": "f623fa5c-3c88-47b6-9072-3144b8e9091d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-25T15:57:19.632Z",
+      "updateAt": "2025-06-25T15:57:19.632Z",
+      "components": [
+        {
+          "componentId": "e935b6ef-491e-4f93-a440-ee4535d0452b",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 18,
+              "w": 4,
+              "h": 22
+            },
+            "laptop": {
+              "x": 0,
+              "y": 24,
+              "w": 6,
+              "h": 37
+            }
+          }
+        },
+        {
+          "componentId": "65649f2c-e576-490a-ad84-c332f88dae10",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 14
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 12,
+              "h": 20
+            }
+          }
+        },
+        {
+          "componentId": "183eb533-26cb-4317-b3f1-fe7290b4320e",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 4
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "e935b6ef-491e-4f93-a440-ee4535d0452b",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-25T15:57:50.900Z",
+      "updateAt": "2025-06-25T15:57:50.900Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "65649f2c-e576-490a-ad84-c332f88dae10",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-06-25T15:59:13.045Z",
+      "updateAt": "2025-06-25T15:59:13.045Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "379",
+            "statisticType": "none"
+          }
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "newPageLocation": {
+        "location": "Main/Mine/文字/情感"
+      },
+      "filter": {
+        "id": "cc19014b-40e9-4dbf-bd3a-9b4afff1ebf5",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "48defaef-b608-4611-9c0a-56fed3f6de89",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "Main/Mine/文字/情感",
+            "conditions": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "183eb533-26cb-4317-b3f1-fe7290b4320e",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-25T16:02:37.649Z",
+      "updateAt": "2025-06-25T16:02:37.649Z",
+      "title": "新想法",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CreateFile",
+        "id": "7bdc445d-c979-4dcc-9ff6-12ddcb73352c",
+        "options": {
+          "fileName": "小紅書 - {{date: YYYY-MM-DD}}",
+          "targetFolder": "Main/Mine/文字/情感/Notes",
+          "openPageIn": "window"
+        }
+      },
+      "icon": "Lightbulb"
+    }
+  ],
+  "rootComponentId": "f623fa5c-3c88-47b6-9072-3144b8e9091d"
+}

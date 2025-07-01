@@ -1,0 +1,11 @@
+2025-05-10 14:05:11.243 [info] refresh page data from reload listeners 1 0   
+2025-05-10 14:05:11.243 [info] start to clear object store page   
+2025-05-10 14:05:11.249 [info] Cleared all data in oject store: page   
+2025-05-10 14:05:11.249 [info] clear object store cost 6 ms   
+2025-05-10 14:05:11.249 [info] components index initializing...   
+2025-05-10 14:05:11.270 [info] start to batch put pages: 141   
+2025-05-10 14:05:11.283 [info] indexing created file components/logs/2025-05-10.components.log  [object Object] 
+2025-05-10 14:05:11.310 [info] batch persist cost 141  40 
+2025-05-10 14:05:11.315 [info] components index initialized, 142 files cost 72 ms   
+2025-05-10 14:05:11.315 [info] refresh page data from init listeners 1 142   
+2025-05-10 14:05:11.422 [info] query  [object Object] 

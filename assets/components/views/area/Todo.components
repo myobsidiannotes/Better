@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "id": "4964ceeb-1081-4c17-8173-e539ec983cce",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-07T17:28:21.974Z",
+      "updateAt": "2025-05-07T17:28:21.974Z",
+      "components": [
+        {
+          "componentId": "ec00cb3c-3d8c-4adc-b32b-ab9f98313fc7"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "ec00cb3c-3d8c-4adc-b32b-ab9f98313fc7",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-08T16:27:08.753Z",
+      "updateAt": "2025-05-08T16:27:08.753Z",
+      "viewType": "kanban",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "12b88b9a-9b26-4133-9f6e-d43193233c83",
+          "name": "doneTime",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        },
+        {
+          "id": "b6d94144-0f93-4053-bc86-848c657c5f72",
+          "name": "status",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "837aad5e-8e25-4d22-b424-56088a2838af",
+          "name": "cover",
+          "isShow": true,
+          "type": "image",
+          "options": "options"
+        },
+        {
+          "id": "e99d689f-9894-4868-8869-27c33ba475b2",
+          "name": "todo task name",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "3735af7c-d0e4-4a68-8d3f-aef596c30a5b",
+          "path": "assets/template/Todo.md",
+          "name": "Todo.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [
+        {
+          "id": "Main/resources/Life/Todo/doing",
+          "name": "Main/resources/Life/Todo/doing",
+          "items": [
+            "Main/resources/Life/Todo/doing/todo.md",
+            "Main/resources/Life/Todo/doing/doing.md"
+          ]
+        },
+        {
+          "id": "Main/resources/Life/Todo/todo",
+          "name": "Main/resources/Life/Todo/todo",
+          "items": [
+            "Main/resources/Life/Todo/todo/todo folder.md",
+            "Main/resources/Life/Todo/todo/20250509004620 .md"
+          ]
+        },
+        {
+          "id": "Main/resources/Life/Todo/done",
+          "name": "Main/resources/Life/Todo/done",
+          "items": [
+            "Main/resources/Life/Todo/done/done folder.md",
+            "Main/resources/Life/Todo/done/20250509004620 .md",
+            "Main/resources/Life/Todo/done/doing folder.md",
+            "Main/resources/Life/Todo/done/doing.md",
+            "Main/resources/Life/Todo/done/20250509004156 .md"
+          ]
+        },
+        {
+          "id": "Main/resources/Life/Todo",
+          "name": "Main/resources/Life/Todo",
+          "items": [
+            "Main/resources/Life/Todo/Todo.md",
+            "Main/resources/Life/Todo/20250509004156 .md"
+          ]
+        }
+      ],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "window",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "specifySectionContent",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "left",
+          "sourceValue": "## title"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "manual",
+        "format": "none",
+        "statics": [],
+        "orders": [
+          "Main/resources/Life/Todo/todo",
+          "Main/resources/Life/Todo/doing",
+          "Main/resources/Life/Todo/done"
+        ],
+        "hiddens": [
+          "__$uncategorizedGroup",
+          "Main/resources/Life/Todo"
+        ],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "fb9e6b02-6836-45b7-8008-d94065deac34",
+        "type": "group",
+        "operator": "or",
+        "conditions": [
+          {
+            "id": "c2f450b0-cd67-4b54-a25b-a8af2ac1657d",
+            "type": "filter",
+            "operator": "equals",
+            "property": "type",
+            "value": "folder",
+            "conditions": []
+          },
+          {
+            "id": "8748e0b2-ca29-4f61-879e-0e582b1ac7ac",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "Main/resources/Life/Todo",
+            "conditions": []
+          }
+        ]
+      },
+      "defaultTemplate": "3735af7c-d0e4-4a68-8d3f-aef596c30a5b",
+      "groupBy": "${file.parent}",
+      "sort": {
+        "orders": [
+          {
+            "id": "5c294889-b67f-410c-ae9d-6d3b7db7eb42",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": true
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "Main/resources/Life/Todo/todo"
+      }
+    }
+  ],
+  "rootComponentId": "4964ceeb-1081-4c17-8173-e539ec983cce"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "c1a5dfe3-ebc9-4e21-b2d6-e92301f13258",
+  "fields": [
+    {
+      "id": "a134f32a-9f5d-4abb-bc9d-3681bdd29290",
+      "label": "第幾次潛水",
+      "type": "text",
+      "enableDescription": true,
+      "description": "忘了就先留空 "
+    },
+    {
+      "id": "e7b6558c-9fb3-40d7-b92e-0db99abe11bc",
+      "label": "潛水地點",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "ca768df8-6303-445e-b7ae-12a686321d42",
+      "label": "此次旅程的第幾潛？",
+      "type": "text",
+      "enableDescription": true,
+      "description": "忘了就先留空 "
+    }
+  ],
+  "actions": [
+    {
+      "id": "d5989394-35e6-466b-804e-16172595635a",
+      "type": "createFile",
+      "targetFolder": "",
+      "fileName": "",
+      "filePath": "assets/Data/Interest/Diving/No.{{@第幾次潛水}} {{@潛水地點}}-{{@此次旅程的第幾潛？}}.md",
+      "contentTemplateSource": "file",
+      "templateFile": "assets/template/Interest/潛水日志 模板.md",
+      "openPageIn": "tab"
+    }
+  ],
+  "autoSubmit": false
+}

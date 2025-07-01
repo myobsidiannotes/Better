@@ -1,0 +1,10 @@
+{
+  "createComponentSilent": false,
+  "receiveBetaVersion": false,
+  "folder": "assets/components/views/area",
+  "formFolder": "assets/components/form",
+  "scriptFolder": "assets/components/scripts",
+  "enableDebug": false,
+  "debugLogOutputFolder": "components/logs",
+  "fileEntrypoints": {}
+}

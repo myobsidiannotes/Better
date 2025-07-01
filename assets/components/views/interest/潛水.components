@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "id": "574e6576-efe3-4d33-be34-7dffa8f1c45a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-09T18:08:40.187Z",
+      "updateAt": "2025-05-09T18:08:40.187Z",
+      "components": [
+        {
+          "componentId": "f915e9b6-224e-4a05-91b0-646bd6b948ef",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 23,
+              "w": 4,
+              "h": 21
+            },
+            "laptop": {
+              "x": 0,
+              "y": 18,
+              "w": 12,
+              "h": 27
+            }
+          }
+        },
+        {
+          "componentId": "0182c156-b1b7-4140-9be5-f4a8be0bc21d",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 18,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 6,
+              "y": 7,
+              "w": 3,
+              "h": 11
+            }
+          }
+        },
+        {
+          "componentId": "0f879bb6-3298-4126-9a1d-4bc7c94ba002",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 18,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 9,
+              "y": 7,
+              "w": 3,
+              "h": 11
+            }
+          }
+        },
+        {
+          "componentId": "f7c7814a-88c6-4f46-8841-d9473adf39f8",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 8
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 7
+            }
+          }
+        },
+        {
+          "componentId": "51cb8101-15aa-4ea7-9aa9-c9e67dd684f9",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 10
+            },
+            "laptop": {
+              "x": 0,
+              "y": 7,
+              "w": 6,
+              "h": 11
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "f915e9b6-224e-4a05-91b0-646bd6b948ef",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-09T18:08:57.081Z",
+      "updateAt": "2025-05-09T18:08:57.081Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "193"
+          }
+        },
+        {
+          "id": "71a5470a-cdd7-4dd6-8a30-db334dc271ae",
+          "name": "活動日期",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        },
+        {
+          "id": "d4e3cd63-23da-42ed-97cb-dace43345ccb",
+          "name": "地點",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "98ac24e7-08b3-44d2-9e87-0836bc54ca71",
+          "name": "潛水時長 (Min)",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "987dfa34-e6de-48a1-a3af-cd524fcef53d",
+          "name": "潛水最大深度 (米)",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "b2635ab7-5dd1-4406-8092-4bc86bdc8e6d",
+          "path": "assets/template/Interest/潛水日志 模板.md",
+          "name": "潛水日志 模板.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [
+          "Main/Resources/Data/Interest/Diving/No.1 泰國濤島-1-OW1.md",
+          "Main/Resources/Data/Interest/Diving/No.10 泰國濤島-10.md",
+          "Main/Resources/Data/Interest/Diving/No.11 泰國濤島-11.md",
+          "Main/Resources/Data/Interest/Diving/No.12 日本衝繩-1.md",
+          "Main/Resources/Data/Interest/Diving/No.3 泰國濤島-3-OW3.md",
+          "Main/Resources/Data/Interest/Diving/No.4 泰國濤島-4-OW4.md",
+          "Main/Resources/Data/Interest/Diving/No.5 泰國濤島-5-AOW1.md",
+          "Main/Resources/Data/Interest/Diving/No.2 泰國濤島-2-OW2.md",
+          "Main/Resources/Data/Interest/Diving/No.6 泰國濤島-6-AOW2.md",
+          "Main/Resources/Data/Interest/Diving/No.7 泰國濤島-7-AOW3.md",
+          "Main/Resources/Data/Interest/Diving/No.8 泰國濤島-8-AOW41.md",
+          "Main/Resources/Data/Interest/Diving/No.9 泰國濤島-9-AOW5.md",
+          "Main/Resources/Data/Interest/Diving/No.13 日本衝繩-2.md",
+          "Main/Resources/Data/Interest/Diving/No.14 日本衝繩-3.md"
+        ],
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 500
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "fa6b956b-42cb-4d4b-8254-40e06402d44f",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "ad652e13-3398-4ac5-8415-2cb0193c8198",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.parent}",
+            "value": "assets/Data/Interest/Diving",
+            "conditions": []
+          },
+          {
+            "id": "216d0cd0-e4fc-464f-ae07-3891d446a2c2",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#潛水",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "assets/Data/Interest/Diving"
+      },
+      "defaultTemplate": "b2635ab7-5dd1-4406-8092-4bc86bdc8e6d",
+      "sort": {
+        "orders": [
+          {
+            "id": "1e9e14e3-f115-45f8-90e0-7ffc8d109a7c",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "groupBy": ""
+    },
+    {
+      "id": "0182c156-b1b7-4140-9be5-f4a8be0bc21d",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-10T10:48:25.069Z",
+      "updateAt": "2025-05-10T10:48:25.069Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "ac749135-cc66-4cbb-a0fe-445a7bec198d",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "0f5490b9-3e26-483f-9eb7-db0f2b09f50d",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#潛水",
+              "conditions": []
+            },
+            {
+              "id": "9c126ff5-a340-4ad1-991c-c38ad310cc46",
+              "type": "filter",
+              "operator": "has_value",
+              "property": "活動日期",
+              "value": null,
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "e45c7803-1650-4966-90e4-cee2cf8a4622",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "潛水次數"
+    },
+    {
+      "id": "0f879bb6-3298-4126-9a1d-4bc7c94ba002",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-10T10:58:03.421Z",
+      "updateAt": "2025-05-10T10:58:03.421Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "ac749135-cc66-4cbb-a0fe-445a7bec198d",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        },
+        "property": "潛水時長 (Min)"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "e45c7803-1650-4966-90e4-cee2cf8a4622",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "潛水時長（分鐘）"
+    },
+    {
+      "id": "f7c7814a-88c6-4f46-8841-d9473adf39f8",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T15:17:57.907Z",
+      "updateAt": "2025-05-12T15:17:57.907Z",
+      "showStartDateTime": false,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "yMdHms",
+      "startDateTime": "2024-09-19 00:00:00",
+      "title": "距離上一次潛水已經",
+      "picture": "assets/Better library.library/images/MAL8SJ6FXLQN0.info/沖繩-海龜.jpg",
+      "pictureBlurDegree": "0"
+    },
+    {
+      "id": "51cb8101-15aa-4ea7-9aa9-c9e67dd684f9",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-12T15:19:35.536Z",
+      "updateAt": "2025-05-12T15:19:35.536Z",
+      "chartType": "heatmap",
+      "filter": {
+        "id": "0b40f144-746c-4e91-a21a-e06c07615828",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "85a5c495-79ad-441b-b703-4004583f5094",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#潛水",
+            "conditions": []
+          }
+        ]
+      },
+      "labelProperty": "活動日期",
+      "labelFormat": "$none",
+      "valueProperty": "潛水時長 (Min)",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {
+        "minValue": 1,
+        "maxValue": 100,
+        "cellSize": 12,
+        "numberOfSegments": 4,
+        "fullWidth": false,
+        "showSplitLine": false,
+        "hideChartLabel": false,
+        "firstDayOfWeek": 1,
+        "dateRange": {
+          "type": "latest",
+          "latestValue": "180",
+          "latestUnit": "day"
+        }
+      },
+      "valueFormat": "$sum",
+      "title": "潛水熱力圖"
+    }
+  ],
+  "rootComponentId": "574e6576-efe3-4d33-be34-7dffa8f1c45a"
+}

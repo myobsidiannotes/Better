@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "id": "a6f0789b-bc10-4e40-8682-92cfdfa2f377",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:31:22.199Z",
+      "updateAt": "2025-05-13T06:31:22.199Z",
+      "components": [
+        {
+          "componentId": "daabb08a-513e-4011-b564-cc846b574c39",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 10,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "6898ffdf-b025-4ae8-9629-addb2183d261",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 3,
+              "y": 10,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "13c56000-881a-4c5a-b00d-e675eaaae4f9",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 0,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 6,
+              "y": 10,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "a28af98c-d5cc-4b8b-a75c-82d551e9db63",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 4,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 9,
+              "y": 10,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "264b6d7f-ed01-4d0c-b0ae-a8841967c345",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 14,
+              "w": 12,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "94f853d7-4c1c-4938-84f8-54dbe968128d",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 13,
+              "w": 4,
+              "h": 11
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 10
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "daabb08a-513e-4011-b564-cc846b574c39",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:32:24.076Z",
+      "updateAt": "2025-05-13T06:32:24.076Z",
+      "title": "新增 學鼓",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenForm",
+        "id": "5246d354-a052-4228-ac44-97087006525e",
+        "options": {
+          "templateFilePath": "assets/template/Interest/學鼓日志 模板.md",
+          "fileName": "學鼓.cform",
+          "targetFolder": "assets/Data/Interest/Drum",
+          "openPageIn": "tab",
+          "filePath": "assets/components/form/Create/Interest/學鼓.cform"
+        }
+      },
+      "icon": "Drum"
+    },
+    {
+      "id": "6898ffdf-b025-4ae8-9629-addb2183d261",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:33:29.689Z",
+      "updateAt": "2025-05-13T06:33:29.689Z",
+      "title": "新增 練鼓",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CreateFile",
+        "id": "ea4bc321-4f79-415d-b13c-faad26332899",
+        "options": {
+          "templateFilePath": "assets/template/Interest/練鼓日志 模板.md",
+          "fileName": "{{date: YYYY-MM-DD}}",
+          "targetFolder": "assets/Data/Interest/Drum",
+          "openPageIn": "tab"
+        }
+      },
+      "icon": "Drum"
+    },
+    {
+      "id": "13c56000-881a-4c5a-b00d-e675eaaae4f9",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:34:12.900Z",
+      "updateAt": "2025-05-13T06:34:12.900Z",
+      "title": "新增 滑雪",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenForm",
+        "id": "4d67c337-7890-469d-8158-200a53700694",
+        "options": {
+          "templateFilePath": "assets/template/Interest/滑雪日志 模板.md",
+          "fileName": "滑雪.cform",
+          "targetFolder": "Main/Resources/Data/Interest/Ski",
+          "openPageIn": "tab",
+          "filePath": "assets/components/form/Create/Interest/滑雪.cform"
+        }
+      },
+      "icon": "Snowflake"
+    },
+    {
+      "id": "a28af98c-d5cc-4b8b-a75c-82d551e9db63",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:35:10.928Z",
+      "updateAt": "2025-05-13T06:35:10.928Z",
+      "title": "新增 潛水",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenForm",
+        "id": "acf58d14-cdd4-48a1-815d-8315acbaaaac",
+        "options": {
+          "templateFilePath": "assets/template/Interest/潛水日志 模板.md",
+          "fileName": "潛水.cform",
+          "targetFolder": "Main/Resources/Data/Interest/Diving",
+          "openPageIn": "tab",
+          "filePath": "assets/components/form/Create/Interest/潛水.cform"
+        }
+      },
+      "icon": "Waves"
+    },
+    {
+      "id": "264b6d7f-ed01-4d0c-b0ae-a8841967c345",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T06:36:32.920Z",
+      "updateAt": "2025-05-13T06:36:32.920Z",
+      "title": "興趣數據",
+      "description": "查看興趣數據統計",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "bc1126e4-87ca-491f-bfb2-8e0b9b368754",
+        "options": {
+          "filePath": "assets/components/views/interest/interest-statistics.components",
+          "fileName": "interest-statistics.components"
+        }
+      },
+      "icon": "TrendingUp",
+      "backgroundColor": "#489ad1cc"
+    },
+    {
+      "id": "94f853d7-4c1c-4938-84f8-54dbe968128d",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-13T12:41:26.909Z",
+      "updateAt": "2025-05-13T12:41:26.909Z",
+      "chartType": "heatmap",
+      "filter": {
+        "id": "582937d6-270f-4e2d-aaea-5aa68e4bc965",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "869e0b05-c017-400e-bd3a-1b4fd3c14873",
+            "type": "group",
+            "operator": "or",
+            "conditions": [
+              {
+                "id": "bd1c690e-e644-416e-bd05-6ea5c3c3c11d",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#學鼓",
+                "conditions": []
+              },
+              {
+                "id": "e5e7609e-e9ae-4a13-859e-8085e188550b",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#練鼓",
+                "conditions": []
+              },
+              {
+                "id": "ffe903e7-9f55-41b8-a06a-62894f9c6c86",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#滑雪",
+                "conditions": []
+              },
+              {
+                "id": "9a8a9231-9e5a-4dd9-a2d5-42b886e807bc",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.tags}",
+                "value": "#潛水",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      },
+      "labelProperty": "活動日期",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {
+        "minValue": 0,
+        "maxValue": 1,
+        "cellSize": 12,
+        "numberOfSegments": 1,
+        "fullWidth": false,
+        "showSplitLine": false,
+        "hideChartLabel": false,
+        "firstDayOfWeek": 1,
+        "dateRange": {
+          "type": "latest",
+          "latestValue": "180",
+          "latestUnit": "day"
+        }
+      },
+      "title": "興趣活動熱力圖"
+    }
+  ],
+  "rootComponentId": "a6f0789b-bc10-4e40-8682-92cfdfa2f377"
+}

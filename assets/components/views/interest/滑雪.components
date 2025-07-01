@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "id": "8e9dc269-4266-4f36-8079-5de55733dcb6",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-09T17:51:17.322Z",
+      "updateAt": "2025-05-09T17:51:17.322Z",
+      "components": [
+        {
+          "componentId": "ef7f885d-0d08-4161-bf17-82db3cc9a675",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 23,
+              "w": 4,
+              "h": 20
+            },
+            "laptop": {
+              "x": 0,
+              "y": 17,
+              "w": 12,
+              "h": 22
+            }
+          }
+        },
+        {
+          "componentId": "a88213f0-4948-449d-92a4-91507cd7f120",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 18,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 6,
+              "y": 7,
+              "w": 6,
+              "h": 5
+            }
+          }
+        },
+        {
+          "componentId": "f09b162e-26ed-4fdf-a885-00077ad0829c",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 18,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 6,
+              "y": 12,
+              "w": 6,
+              "h": 5
+            }
+          }
+        },
+        {
+          "componentId": "df2e260d-c110-49f7-8fd1-681d76b05053",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 8
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 7
+            }
+          }
+        },
+        {
+          "componentId": "1b2b3678-4c36-416b-9b39-fb93bd569f4f",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 10
+            },
+            "laptop": {
+              "x": 0,
+              "y": 7,
+              "w": 6,
+              "h": 10
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "ef7f885d-0d08-4161-bf17-82db3cc9a675",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "滑雪",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-10T05:57:41.983Z",
+      "updateAt": "2025-05-10T05:57:41.983Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "179"
+          }
+        },
+        {
+          "id": "05df7b71-9769-4a98-8a11-9163ec803ea7",
+          "name": "活動日期",
+          "isShow": true,
+          "type": "date",
+          "options": {
+            "width": "244"
+          }
+        },
+        {
+          "id": "844757a4-ad4e-469b-8347-685b90b96acc",
+          "name": "地點",
+          "isShow": true,
+          "type": "text",
+          "options": {
+            "width": "261"
+          }
+        },
+        {
+          "id": "c106d334-ba17-4d17-a108-9a0631814d59",
+          "name": "雪場",
+          "isShow": true,
+          "type": "text",
+          "options": {
+            "width": "294"
+          }
+        },
+        {
+          "id": "e782f268-5e76-4dcc-a729-58cf71310d97",
+          "name": "滑雪時長 (Min)",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "6372c749-5690-4aff-b7f2-5fd52712f223",
+          "path": "assets/template/Interest/滑雪日志 模板.md",
+          "name": "滑雪日志 模板.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 626
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "07608f05-b0a8-4737-ba97-b19435d4d009",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "0ca136ae-9226-43c3-a41d-dd5f948633c1",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.parent}",
+            "value": "assets/Data/Interest/Ski",
+            "conditions": []
+          },
+          {
+            "id": "26d04959-6ebb-48c4-83ce-4f24cea8eee7",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#滑雪",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "67af9f7c-1a52-4854-bdb4-6a1a7e988cf2",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "defaultTemplate": "6372c749-5690-4aff-b7f2-5fd52712f223",
+      "newPageLocation": {
+        "location": "assets/Data/Interest/Ski"
+      }
+    },
+    {
+      "id": "a88213f0-4948-449d-92a4-91507cd7f120",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-10T08:05:28.377Z",
+      "updateAt": "2025-05-10T08:05:28.377Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "cd724201-e7f6-47a1-b30d-5d51c2cf0fb9",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "599a8234-be2e-45e9-bd31-548e4af875f5",
+              "type": "filter",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "value": "#滑雪",
+              "conditions": []
+            },
+            {
+              "id": "ff8d00bf-52fb-4285-8a72-5283dc078615",
+              "type": "filter",
+              "operator": "has_value",
+              "property": "活動日期",
+              "value": null,
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "2c33fd93-ae3a-42ad-9342-fbb0f39479c0",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "在雪天數"
+    },
+    {
+      "id": "f09b162e-26ed-4fdf-a885-00077ad0829c",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-10T08:14:38.553Z",
+      "updateAt": "2025-05-10T08:14:38.553Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "propertyValue",
+        "value": 100,
+        "filter": {
+          "id": "cd724201-e7f6-47a1-b30d-5d51c2cf0fb9",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        },
+        "aggregationType": "sum",
+        "property": "滑雪時長 (Min)"
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "2c33fd93-ae3a-42ad-9342-fbb0f39479c0",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "滑雪時長（分鐘）"
+    },
+    {
+      "id": "df2e260d-c110-49f7-8fd1-681d76b05053",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T15:11:38.946Z",
+      "updateAt": "2025-05-12T15:11:38.946Z",
+      "showStartDateTime": false,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "yMdHms",
+      "startDateTime": "2025-05-17 21:00:00",
+      "title": "距離上次滑雪已經",
+      "picture": "assets/Better library.library/images/MAL94UDI60QI2.info/snowboard-unsplash.jpg"
+    },
+    {
+      "id": "1b2b3678-4c36-416b-9b39-fb93bd569f4f",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-12T15:13:30.296Z",
+      "updateAt": "2025-05-12T15:13:30.296Z",
+      "chartType": "heatmap",
+      "filter": {
+        "id": "d1720d3e-45df-4e11-b1a0-eeb0db81c619",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "labelProperty": "活動日期",
+      "labelFormat": "$none",
+      "valueProperty": "滑雪時長 (Min)",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {
+        "minValue": 1,
+        "maxValue": 600,
+        "cellSize": 12,
+        "numberOfSegments": 4,
+        "fullWidth": false,
+        "showSplitLine": false,
+        "hideChartLabel": false,
+        "firstDayOfWeek": 1,
+        "dateRange": {
+          "type": "latest",
+          "latestValue": 180,
+          "latestUnit": "day"
+        }
+      },
+      "title": "滑雪熱力圖"
+    }
+  ],
+  "rootComponentId": "8e9dc269-4266-4f36-8079-5de55733dcb6"
+}

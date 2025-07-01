@@ -1,0 +1,26 @@
+{
+  "pluginList": [
+    "vran-dev/obsidian-form-flow",
+    "zyjGraphein/Obsidian-EagleBridge"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "vran-dev/obsidian-form-flow",
+      "version": "latest"
+    },
+    {
+      "repo": "zyjGraphein/Obsidian-EagleBridge",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
+}

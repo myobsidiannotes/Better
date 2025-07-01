@@ -1,0 +1,690 @@
+{
+  "components": [
+    {
+      "id": "cb8bee17-a1df-4ae2-950a-5d487637c6c1",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-13T04:16:25.409Z",
+      "updateAt": "2024-12-13T04:16:25.412Z",
+      "components": [
+        {
+          "componentId": "07c5af35-afdc-4dae-89a1-e7b9851cf458",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 10,
+              "w": 4,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 9,
+              "w": 12,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "245e6141-e5bd-46e0-8a53-bac33f85077f",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 7,
+              "w": 2,
+              "h": 3
+            },
+            "laptop": {
+              "x": 0,
+              "y": 6,
+              "w": 6,
+              "h": 3
+            }
+          }
+        },
+        {
+          "componentId": "dadd38e7-696e-4dfc-8f00-3a253507a746",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 15,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 3,
+              "y": 13,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "13e0da4c-92c3-4dc5-b91b-77cdab1c2fcb",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 7
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 6
+            }
+          }
+        },
+        {
+          "componentId": "13b51ecf-9cd0-4743-905e-fe0e30a28d56",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 15,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 13,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "eca1d02e-eaf8-40ba-b9aa-75e9c1119aa3",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 27,
+              "w": 4,
+              "h": 8
+            },
+            "laptop": {
+              "x": 0,
+              "y": 21,
+              "w": 12,
+              "h": 10
+            }
+          }
+        },
+        {
+          "componentId": "ae3cdfdf-517b-4b7b-937b-d47e8511158d",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 19,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 9,
+              "y": 13,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "7fe8e804-69b7-4070-84ad-52543180dfd4",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 35,
+              "w": 4,
+              "h": 9
+            },
+            "laptop": {
+              "x": 4,
+              "y": 31,
+              "w": 8,
+              "h": 8
+            }
+          }
+        },
+        {
+          "componentId": "b6bfc019-a628-4c94-af10-a15dfa44e64a",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 44,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 31,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "27c8b5b8-4caf-48bf-904d-c76e8db36e21",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 44,
+              "w": 2,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 35,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "632f8a56-5cba-423c-8e64-b272f12f3e46",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 19,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 6,
+              "y": 13,
+              "w": 3,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "b0168069-01b8-489a-8055-1e54fd78f9c5",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 7,
+              "w": 2,
+              "h": 3
+            },
+            "laptop": {
+              "x": 6,
+              "y": 6,
+              "w": 6,
+              "h": 3
+            }
+          }
+        },
+        {
+          "componentId": "575005e0-fe8d-4387-a1be-784f0df5abd0",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 23,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 17,
+              "w": 12,
+              "h": 4
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "8721543a-ed04-422f-9f9c-c4c0b908c4ae",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:06:57.589Z",
+      "updateAt": "2024-05-13T07:06:57.589Z",
+      "contentType": "page",
+      "coverType": "pageFirstImage",
+      "filter": {
+        "id": "811bd9bd-c0bb-4d18-9830-4d387c638588",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "409b6073-1331-479d-b667-2d66d57a7c27",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "",
+            "conditions": []
+          }
+        ]
+      },
+      "maxHeight": 300
+    },
+    {
+      "id": "07c5af35-afdc-4dae-89a1-e7b9851cf458",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-13T04:18:15.532Z",
+      "updateAt": "2024-12-13T04:18:15.532Z",
+      "title": "今日小記",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenForm",
+        "id": "349e556d-ad8c-4e54-bd91-f1a942563945",
+        "options": {
+          "commandId": "daily-notes",
+          "commandName": "日记: 打开/创建今天的日记",
+          "filePath": "assets/components/form/Create/Life/Journal.cform",
+          "fileName": "Journal.cform"
+        }
+      },
+      "icon": "CalendarPlus"
+    },
+    {
+      "id": "245e6141-e5bd-46e0-8a53-bac33f85077f",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-13T04:18:15.532Z",
+      "updateAt": "2024-12-13T04:18:15.532Z",
+      "title": "新草稿",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenForm",
+        "id": "349e556d-ad8c-4e54-bd91-f1a942563945",
+        "options": {
+          "commandId": "app:toggle-right-sidebar",
+          "commandName": "折叠/展开右侧边栏",
+          "expression": "switchLightDark()",
+          "templateFilePath": "assets/template/Work/notes template.md",
+          "fileName": "New Notes.cform",
+          "targetFolder": "Notes",
+          "openPageIn": "tab",
+          "filePath": "assets/components/form/New Notes.cform"
+        }
+      },
+      "icon": "Inbox"
+    },
+    {
+      "id": "dadd38e7-696e-4dfc-8f00-3a253507a746",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-12T15:00:36.654Z",
+      "updateAt": "2025-05-12T15:00:36.654Z",
+      "title": "日記/打卡一覽",
+      "description": "  細水長流",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "9c467648-53c3-4eea-8084-d1cddebdf651",
+        "options": {
+          "openPageIn": "tab",
+          "filePath": "assets/components/views/Life/Journal.components",
+          "fileName": "Journal.components"
+        }
+      },
+      "icon": "NotebookPen",
+      "backgroundColor": "#913fd1b3",
+      "fontColor": "#ffffff"
+    },
+    {
+      "id": "13e0da4c-92c3-4dc5-b91b-77cdab1c2fcb",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T16:11:10.257Z",
+      "updateAt": "2025-05-12T16:11:10.257Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfYear",
+      "endDateTimeType": "$endOfYear",
+      "uiType": "bar",
+      "title": "2025"
+    },
+    {
+      "id": "13b51ecf-9cd0-4743-905e-fe0e30a28d56",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-12T16:14:19.894Z",
+      "updateAt": "2025-05-12T16:14:19.894Z",
+      "title": "草稿箱",
+      "description": "草稿/靈感",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "eff40ec7-9f8b-46bf-89c8-bbe5c294b6dc",
+        "options": {
+          "filePath": "assets/components/views/area/Notes.components",
+          "fileName": "Notes.components",
+          "openPageIn": "tab",
+          "url": ""
+        }
+      },
+      "icon": "Notebook",
+      "backgroundColor": "#00d084b3",
+      "fontColor": "#ffffff"
+    },
+    {
+      "id": "eca1d02e-eaf8-40ba-b9aa-75e9c1119aa3",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-12T16:27:35.528Z",
+      "updateAt": "2025-05-12T16:27:35.528Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "top",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "cb583dbf-e9c4-4df5-ac89-06e2e3e94f0d",
+        "options": {}
+      },
+      "cover": "assets/Better library.library/images/MALCEWA22VZTY.info/ott-erik-eendra-bS0Fyu-z1l0-unsplash.jpg"
+    },
+    {
+      "id": "ae3cdfdf-517b-4b7b-937b-d47e8511158d",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T16:47:36.841Z",
+      "updateAt": "2025-05-12T16:47:36.841Z",
+      "title": "旅遊一覽",
+      "description": "去哪兒玩啦！",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "09f35b9f-f253-4293-9535-ec23bd792fb9",
+        "options": {
+          "filePath": "assets/Pages/area/旅遊.md",
+          "fileName": "旅遊.md"
+        }
+      },
+      "icon": "Plane",
+      "backgroundColor": "#2dddeeb3",
+      "fontColor": "#ffffff"
+    },
+    {
+      "id": "7fe8e804-69b7-4070-84ad-52543180dfd4",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T17:11:21.691Z",
+      "updateAt": "2025-05-12T17:11:21.691Z",
+      "chartType": "heatmap",
+      "filter": {
+        "id": "c8e3e382-1310-4641-bd05-a9fc1aaae53d",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "labelProperty": "${file.ctime}",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {
+        "minValue": 1,
+        "maxValue": 10,
+        "cellSize": 12,
+        "numberOfSegments": 3,
+        "fullWidth": false,
+        "showSplitLine": false,
+        "hideChartLabel": false,
+        "firstDayOfWeek": 1,
+        "dateRange": {
+          "type": "latest",
+          "latestValue": 180,
+          "latestUnit": "day"
+        }
+      }
+    },
+    {
+      "id": "b6bfc019-a628-4c94-af10-a15dfa44e64a",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T17:12:27.331Z",
+      "updateAt": "2025-05-12T17:12:27.332Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "99ea3c2b-828c-4ee7-9f92-c416e3c869d7",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "6a590f42-6f33-4f12-976f-e359527e0855",
+              "type": "filter",
+              "operator": "time_after",
+              "property": "${file.ctime}",
+              "value": {
+                "type": "$startOfWeek",
+                "unit": "day",
+                "direction": "before",
+                "value": ""
+              },
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "a8356827-54f5-4ff6-a62d-4760f6c90f49",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "本週新筆記"
+    },
+    {
+      "id": "27c8b5b8-4caf-48bf-904d-c76e8db36e21",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-05-12T17:12:27.331Z",
+      "updateAt": "2025-05-12T17:12:27.332Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "99ea3c2b-828c-4ee7-9f92-c416e3c869d7",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "0f3dd1a3-17ab-41f5-b9c8-a63f2343b1fe",
+              "type": "filter",
+              "operator": "time_after",
+              "property": "${file.mtime}",
+              "value": {
+                "type": "$startOfWeek",
+                "unit": "day",
+                "direction": "before",
+                "value": ""
+              },
+              "conditions": []
+            }
+          ]
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "a8356827-54f5-4ff6-a62d-4760f6c90f49",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "title": "本週修改"
+    },
+    {
+      "id": "632f8a56-5cba-423c-8e64-b272f12f3e46",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-12T15:00:36.654Z",
+      "updateAt": "2025-05-12T15:00:36.654Z",
+      "title": "興趣",
+      "description": "興趣 / 活動",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "9c467648-53c3-4eea-8084-d1cddebdf651",
+        "options": {
+          "openPageIn": "tab",
+          "filePath": "assets/components/views/interest/interest-index.components",
+          "fileName": "interest-index.components"
+        }
+      },
+      "icon": "Anchor",
+      "backgroundColor": "#fcb900cc",
+      "fontColor": "#ffffff"
+    },
+    {
+      "id": "b0168069-01b8-489a-8055-1e54fd78f9c5",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-13T04:18:15.532Z",
+      "updateAt": "2024-12-13T04:18:15.532Z",
+      "title": "Kanban",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "top",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "349e556d-ad8c-4e54-bd91-f1a942563945",
+        "options": {
+          "commandId": "daily-notes",
+          "commandName": "日记: 打开/创建今天的日记",
+          "templateFilePath": "resource/template/工作/工作项目模板.md",
+          "fileName": "Main Kanban.md",
+          "targetFolder": "area/work/研发",
+          "openPageIn": "tab",
+          "filePath": "Notes/Kanban/Main Kanban.md"
+        }
+      },
+      "icon": "ListTodo",
+      "cover": ""
+    },
+    {
+      "id": "575005e0-fe8d-4387-a1be-784f0df5abd0",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-06-25T15:39:35.681Z",
+      "updateAt": "2025-06-25T15:39:35.681Z",
+      "title": "Work",
+      "description": "All works",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "4ad40b39-56dd-495c-a11f-c04a4da7837e",
+        "options": {
+          "openPageIn": "current",
+          "filePath": "assets/components/views/area/Work.components",
+          "fileName": "Work.components"
+        }
+      },
+      "backgroundColor": "#607d8b",
+      "fontColor": "#ffffff",
+      "icon": "ChartNetwork"
+    }
+  ],
+  "rootComponentId": "cb8bee17-a1df-4ae2-950a-5d487637c6c1"
+}

@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "doneTime": "date",
+    "潛水類型": "multitext",
+    "活動日期": "date",
+    "createTime": "date"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "id": "f6d56adc-26ed-478d-a2cb-b2942da57209",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-05-12T17:02:38.730Z",
+      "updateAt": "2025-05-12T17:02:38.730Z",
+      "components": [
+        {
+          "componentId": "595aa378-25b8-4c7e-a4d0-34a69054b836",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 40
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 43
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "595aa378-25b8-4c7e-a4d0-34a69054b836",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-05-12T17:02:49.007Z",
+      "updateAt": "2025-05-12T17:02:49.007Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "411",
+            "statisticType": "count"
+          }
+        },
+        {
+          "id": "e188299a-55df-4017-abb1-d4c96e4c752f",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {
+            "width": "287"
+          }
+        },
+        {
+          "id": "2ab27152-ce7c-4b55-9877-0f935d7a7db5",
+          "name": "${file.ctime}",
+          "isShow": false,
+          "type": "datetime",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "3cbc4222-b545-4de8-9837-594819045c0e",
+          "path": "assets/template/Work/notes template.md",
+          "name": "notes template.md",
+          "type": "templater"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "ad35d559-7935-4e97-92bc-a5e0e6d795bd",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "83e54cf1-db71-4c1e-bcae-68473237793f",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.parent}",
+            "value": "Notes",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "d0fbd2d5-d4cf-4fa0-85cf-ce4c99ce9010",
+            "property": "${file.mtime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "Notes"
+      },
+      "defaultTemplate": "3cbc4222-b545-4de8-9837-594819045c0e"
+    }
+  ],
+  "rootComponentId": "f6d56adc-26ed-478d-a2cb-b2942da57209"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "e8d68a01-b50c-4cd8-a2c1-b099c6b72bf5",
+  "fields": [],
+  "actions": [
+    {
+      "id": "364936ed-cb8a-45f7-acfe-f51bec5a3e67",
+      "type": "createFile",
+      "targetFolder": "",
+      "fileName": "",
+      "contentTemplateSource": "text",
+      "condition": {
+        "id": "4cf96c04-ffa3-43c6-aabb-279085e71d5d",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      }
+    }
+  ],
+  "autoSubmit": false
+}

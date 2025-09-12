@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "id": "840a71dc-268b-4e00-bcce-aa8abbe56b8c",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-27T00:49:05.544Z",
+      "updateAt": "2025-08-27T00:49:05.544Z",
+      "components": [
+        {
+          "componentId": "3c4e7e7e-b4b4-4c12-b450-c626bfe89f9c",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 32
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "3c4e7e7e-b4b4-4c12-b450-c626bfe89f9c",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-08-27T00:49:23.465Z",
+      "updateAt": "2025-08-27T00:49:23.465Z",
+      "viewType": "kanban",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "dc99b5c7-0e7d-4e9b-9ef2-a403fa57fca2",
+          "path": "assets/template/Life/Todo template.md",
+          "name": "Todo template.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-small",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [
+          "__$uncategorizedGroup"
+        ],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "075fdfd3-7f3b-426e-b613-7f0cd0fa9feb",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "a4bb3bce-e8dc-440f-825f-80a83aed2880",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "assets/Data/Life/Todo",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "kanbanStatus",
+      "sort": {
+        "orders": [
+          {
+            "id": "59713d65-bc1f-4701-8c10-433275ea756e",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": false
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "assets/Data/Life/Todo"
+      },
+      "defaultTemplate": "dc99b5c7-0e7d-4e9b-9ef2-a403fa57fca2"
+    }
+  ],
+  "rootComponentId": "840a71dc-268b-4e00-bcce-aa8abbe56b8c"
+}

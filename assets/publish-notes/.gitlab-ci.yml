@@ -1,0 +1,34 @@
+image: python:3.9
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - .cache
+
+before_script:
+  - pip install mkdocs mkdocs-material
+  - pip install mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin mkdocs-awesome-pages-plugin
+  - pip install pymdown-extensions
+
+build:
+  stage: build
+  script:
+    - mkdocs build --site-dir public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+pages:
+  stage: deploy
+  dependencies:
+    - build
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

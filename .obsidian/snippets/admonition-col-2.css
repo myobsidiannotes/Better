@@ -1,0 +1,12 @@
+.admonition-info-col .callout-content p {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.admonition-info-col .callout-content p br {
+  content: "";
+}
+
+.admonition-info-col .callout-content {
+  flex-direction: column;
+}

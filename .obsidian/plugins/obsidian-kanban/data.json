@@ -1,0 +1,6 @@
+{
+  "new-note-template": "assets/template/Work/通用項目模板.md",
+  "new-note-folder": "Notes/Kanban",
+  "move-tags": true,
+  "move-dates": true
+}

@@ -1,0 +1,27 @@
+.components--KanbanDynamicDataView .components--DynamicDataView-GroupHeader {
+  background-color: var(--background-primary-alt);
+  padding-left: var(--size-4-3);
+  padding-right: var(--size-4-3);
+  margin-bottom: var(--size-4-2);
+  border-radius: var(--radius-l);
+}
+
+.components--KanbanDynamicDataView .components--KanbanDynamicDataView-Dropzone {
+  background-color: var(--background-primary-alt);
+  padding: var(--size-4-3);
+  margin-bottom: var(--size-4-2);
+  border-radius: var(--radius-l);
+}
+
+.components--KanbanDynamicDataView .components--DynamicDataView-PageCard {
+  position: relative;
+  border-radius: var(--radius-l);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.components--KanbanDynamicDataView
+  .components--DynamicDataView-PageCard:hover {
+  border-radius: var(--radius-l);
+  border: 1px solid hsl(var(--interactive-accent-hsl), 0.1);;
+  background-color: hsl(var(--interactive-accent-hsl), 0.1);
+}

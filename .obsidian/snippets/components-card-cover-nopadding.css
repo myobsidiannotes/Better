@@ -1,0 +1,10 @@
+.components--DynamicDataView-PageCard {
+  padding: 0px;
+  overflow: hidden;
+  border: 0px;
+}
+
+.components--DynamicDataView-PageCardCover,
+.components--DynamicDataView-PageCardCover .components--Picture {
+  border-radius: initial;
+}

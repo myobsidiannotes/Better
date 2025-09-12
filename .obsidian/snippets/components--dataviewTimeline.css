@@ -1,0 +1,79 @@
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-thead {
+  display: none;
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-tbody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  width: 100%;
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-tbody
+  tr {
+  position: relative;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-tbody
+  tr
+  td:nth-child(odd) {
+  padding: var(--size-4-2);
+  margin-right: var(--size-4-2);
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-tbody
+  tr
+  td:nth-child(even):hover {
+  color: var(--text-normal);
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  .table-view-tbody
+  tr
+  td:nth-child(even) {
+  background-color: var(--background-primary-alt);
+  padding: var(--size-4-2) var(--size-4-4);
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  tbody.table-view-tbody
+  tr
+  td:nth-child(1) {
+  min-width: 55px;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  tbody.table-view-tbody
+  tr
+  td:nth-child(4) {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  line-height: 1.5;
+  letter-spacing: calc(var(--font-ui-small) / 10);
+}
+
+.components--dataview-eventsOnHistoryTimeline
+  .dataview.table-view-table
+  tbody.table-view-tbody
+  tr
+  td:nth-child(6) {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ecec89ec-c07f-4c32-b6d7-df1384578df6",
+  "fields": [
+    {
+      "id": "ee5046f0-1a84-440f-a207-cf4eed3edd88",
+      "label": "How much?",
+      "type": "text"
+    }
+  ],
+  "actions": [
+    {
+      "id": "44e93681-63df-407e-b04c-16eaa6e09984",
+      "type": "insertText",
+      "targetFolder": "",
+      "fileName": "",
+      "targetFileType": "current_file",
+      "content": "- {{date:YYYY/MM/DD}} - ${{@How much?}}"
+    }
+  ],
+  "autoSubmit": false
+}

@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "Home.components"
+              },
+              "pinned": true,
+              "icon": "gantt-chart",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45006ad4166e5329",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cdcfa835fa8adff5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "檔案瀏覽器"
+        }
+      },
+      {
+        "id": "5777aefad638f276",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜尋"
+        }
+      },
+      {
+        "id": "bb3ea79c1777a879",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "標籤"
+        }
+      },
+      {
+        "id": "999c4a6f567d1ab0",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "書籤"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e5efbb27ad408def",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2c03c733271de82e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Notes/20250510 HKTV Mall Annual dinner rundown.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "對外連結"
+        }
+      },
+      {
+        "id": "17712f17e8f2fbf5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Untitled.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "b5ae6ebc34dcf29d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Notes/2025-05-24 科目二筆記.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向連結"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:建立新的 base": false,
+      "obsidian42-brat:BRAT": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "random-note:開始漫遊筆記": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "remotely-save:Remotely Save": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "assets/Data/Life/Todo/todo/26年year plan.md",
+    "Home.components",
+    "assets/Data/Interest/Drum/2025-09-04.md",
+    "Notes/2025-05-24 科目二筆記.md",
+    "assets/components/views/interest/interest-index.components",
+    "assets/Data/Interest/Drum/2025-09-09.md",
+    "assets/Pages/area/Todo.md",
+    "assets/components/views/Life/Journal.components",
+    "assets/Data/Life/Todo/todo/3D打印机.md",
+    "assets/Data/Interest/Drum/2025-09-01.md",
+    "assets/Data/Life/Todo/todo/测试.md",
+    "assets/Data/Life/Todo/todo/Obsidian working page.md",
+    "Home 1.components",
+    "Home.components副本",
+    "assets/components/views/interest/interest-statistics.components",
+    "assets/Data/Interest/Drum/2025-08-21.md",
+    "assets/Data/Interest/Drum/2025-08-27.md",
+    "Notes/AI bot setting.md",
+    "Notes/2025-08-27T085535.md",
+    "assets/Pages/area/旅遊.md",
+    "assets/Data/Life/Todo/todo/打电话 取消大陆电话流量.md",
+    "assets/Data/Life/Todo/todo/MyJC Obsidian.md",
+    "assets/Data/Life/Todo/todo/Ocean 2026 bod 溫習.md",
+    "assets/Data/Life/Todo/todo/Obsidian 游戏人生version升级.md",
+    "Main/Useful tools and resources/Username password.md",
+    "assets/Data/Life/Todo/todo/obsidian with n8n（personal database search/obsidian with n8n（personal database search personal AI）.md",
+    "assets/Data/Life/Todo/todo/obsidian with n8n（personal database search",
+    "assets/components/views/Life/kanban.components",
+    "assets/template/Life/Todo.md",
+    "assets/Data/Life/Todo/Todo.md",
+    "assets/Data/Life/Todo/doing/todo.md",
+    "assets/Data/Life/Todo/todo/yoyoyo.md",
+    "assets/Data/Life/Todo/done/done folder.md",
+    "assets/Data/Life/Todo/todo",
+    "assets/Data/Life/Todo/doing",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-23 16.49.28.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.27.07.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.22.11.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.23.38.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.20.38.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-23 16.49.28 1.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.36.29.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.22.44.png",
+    "assets/Better library.library/images/MEO11W7R8H7V4.info/螢幕截圖 2025-08-23 16.49.28.png",
+    "assets/Better library.library/images/MEPQEJ5C07GAU.info/螢幕截圖 2025-08-24 21.22.44.png"
+  ]
+}

@@ -3,9 +3,19 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "doneTime": "date",
-    "潛水類型": "multitext",
+    "area": "text",
+    "出行日期": "date",
+    "结束日期": "date",
+    "總出行日子": "number",
+    "機票": "number",
+    "出行日數": "number",
+    "温度": "text",
+    "開銷": "number",
+    "支出": "number",
+    "滑雪時長 (Min)": "number",
+    "滑行里程（公里）": "number",
+    "createTime": "datetime",
     "活動日期": "date",
-    "createTime": "date"
+    "doneTime": "datetime"
   }
 }

@@ -1,194 +1,319 @@
 {
   "components": [
     {
-      "id": "4964ceeb-1081-4c17-8173-e539ec983cce",
+      "id": "c85cbda2-e747-420e-b54f-bd67a3a302bd",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2025-05-07T17:28:21.974Z",
-      "updateAt": "2025-05-07T17:28:21.974Z",
+      "createAt": "2024-05-13T08:01:51.193Z",
+      "updateAt": "2024-05-13T08:01:51.193Z",
       "components": [
         {
-          "componentId": "ec00cb3c-3d8c-4adc-b32b-ab9f98313fc7"
+          "componentId": "f87878bc-4452-40be-9dcd-6f914c60dfde",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 170
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 40
+            }
+          }
+        },
+        {
+          "componentId": "4622f9c8-34e1-4da3-935f-e9bffda96b52",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 170,
+              "w": 4,
+              "h": 8
+            },
+            "laptop": {
+              "x": 0,
+              "y": 40,
+              "w": 12,
+              "h": 9
+            }
+          }
         }
       ],
-      "layoutType": "column",
-      "locked": false,
-      "layoutOptions": {}
+      "layoutType": "grid",
+      "locked": false
     },
     {
-      "id": "ec00cb3c-3d8c-4adc-b32b-ab9f98313fc7",
+      "id": "3e9ea363-5efc-4325-a75d-9fbdf066ad0d",
       "type": "dynamicDataView",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "kanban",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
-      "createAt": "2025-05-08T16:27:08.753Z",
-      "updateAt": "2025-05-08T16:27:08.753Z",
+      "createAt": "2024-05-13T08:13:00.687Z",
+      "updateAt": "2024-05-13T08:13:00.687Z",
       "viewType": "kanban",
-      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
       "properties": [
         {
           "id": "__componentsTitleProperty_0x7c00",
           "name": "文件名",
           "type": "text",
-          "isShow": false,
+          "isShow": true,
           "wrap": false,
           "options": {}
         },
         {
-          "id": "12b88b9a-9b26-4133-9f6e-d43193233c83",
-          "name": "doneTime",
+          "id": "4a14642d-e483-4c9f-9c7c-606eec2a3f88",
+          "name": "tags",
+          "type": "multiSelect",
           "isShow": true,
-          "type": "date",
           "options": {}
         },
         {
-          "id": "b6d94144-0f93-4053-bc86-848c657c5f72",
-          "name": "status",
+          "id": "99b0d477-a716-4de5-8ed4-5bdbd5253e60",
+          "name": "area",
+          "type": "link",
           "isShow": false,
-          "type": "text",
           "options": {}
         },
         {
-          "id": "837aad5e-8e25-4d22-b424-56088a2838af",
-          "name": "cover",
+          "id": "aade62d0-85ce-4f45-9434-48fa3567b0f9",
+          "name": "tasks",
           "isShow": true,
-          "type": "image",
-          "options": "options"
+          "type": "taskList",
+          "options": {
+            "showTaskList": true,
+            "showAllTasks": false,
+            "hideTaskFields": false,
+            "timeRecordStyle": "tasks",
+            "insertPosition": {
+              "position": "BottomOfNote",
+              "headingLine": ""
+            }
+          }
         },
         {
-          "id": "e99d689f-9894-4868-8869-27c33ba475b2",
-          "name": "todo task name",
+          "id": "5e5cf778-9ac0-452d-99b4-15e8408a43e1",
+          "name": "TODO",
+          "type": "button",
           "isShow": true,
-          "type": "text",
+          "options": {
+            "name": "取消项目",
+            "action": {
+              "type": "updateProperty",
+              "properties": [
+                {
+                  "id": "fd412938-eb23-4dff-bb04-9091bc6f0d59",
+                  "name": "Completion date",
+                  "type": "datetime",
+                  "value": "$now"
+                },
+                {
+                  "id": "d7c2b63e-f978-480f-bad6-aabfc50933c9",
+                  "name": "TodoStatus",
+                  "type": "string",
+                  "value": "TODO"
+                }
+              ]
+            }
+          },
+          "alias": ""
+        },
+        {
+          "id": "42a0ef0b-05cb-4243-8ed0-3e84e4fc0d71",
+          "name": "進行中",
+          "isShow": true,
+          "type": "button",
+          "options": {
+            "action": {
+              "type": "updateProperty",
+              "properties": [
+                {
+                  "id": "119a475c-1fda-4d16-87a3-04a5da6b88da",
+                  "name": "TodoStatus",
+                  "type": "string",
+                  "value": "IN PROGRESS",
+                  "valueSource": "constant",
+                  "modifier": "replaceValue"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "757ccc4a-27ef-4f4d-9c42-0e765170f3d2",
+          "name": "完成",
+          "type": "button",
+          "isShow": true,
+          "options": {
+            "name": "完成项目",
+            "action": {
+              "type": "updateProperty",
+              "properties": [
+                {
+                  "id": "fd412938-eb23-4dff-bb04-9091bc6f0d59",
+                  "name": "Completion date",
+                  "type": "datetime",
+                  "value": "$now"
+                },
+                {
+                  "id": "d7c2b63e-f978-480f-bad6-aabfc50933c9",
+                  "name": "TodoStatus",
+                  "type": "string",
+                  "value": "DONE"
+                }
+              ]
+            }
+          },
+          "alias": ""
+        },
+        {
+          "id": "8ebf3a7e-07d3-475a-b19a-081b8c88b1f3",
+          "name": "Creation date",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "b1afd1f8-d626-40dd-b920-1541db09ef92",
+          "name": "Completion date",
+          "isShow": true,
+          "type": "datetime",
           "options": {}
         }
       ],
       "templates": [
         {
-          "id": "3735af7c-d0e4-4a68-8d3f-aef596c30a5b",
-          "path": "assets/template/Todo.md",
-          "name": "Todo.md",
+          "id": "f768f4fc-33d3-471f-97d1-b90b7dbed37e",
+          "path": "assets/template/Life/Todo template.md",
+          "name": "Todo template.md",
           "type": "normal"
         }
       ],
       "groups": [
         {
-          "id": "Main/resources/Life/Todo/doing",
-          "name": "Main/resources/Life/Todo/doing",
+          "id": "LONG TERM TODO",
+          "name": "LONG TERM TODO",
           "items": [
-            "Main/resources/Life/Todo/doing/todo.md",
-            "Main/resources/Life/Todo/doing/doing.md"
-          ]
-        },
-        {
-          "id": "Main/resources/Life/Todo/todo",
-          "name": "Main/resources/Life/Todo/todo",
-          "items": [
-            "Main/resources/Life/Todo/todo/todo folder.md",
-            "Main/resources/Life/Todo/todo/20250509004620 .md"
-          ]
-        },
-        {
-          "id": "Main/resources/Life/Todo/done",
-          "name": "Main/resources/Life/Todo/done",
-          "items": [
-            "Main/resources/Life/Todo/done/done folder.md",
-            "Main/resources/Life/Todo/done/20250509004620 .md",
-            "Main/resources/Life/Todo/done/doing folder.md",
-            "Main/resources/Life/Todo/done/doing.md",
-            "Main/resources/Life/Todo/done/20250509004156 .md"
-          ]
-        },
-        {
-          "id": "Main/resources/Life/Todo",
-          "name": "Main/resources/Life/Todo",
-          "items": [
-            "Main/resources/Life/Todo/Todo.md",
-            "Main/resources/Life/Todo/20250509004156 .md"
+            "assets/Data/Life/Todo/todo/Obsidian working page.md",
+            "assets/Data/Life/Todo/todo/obsidian with n8n（personal database search/personal AI）.md",
+            "assets/Data/Life/Todo/todo/Obsidian 游戏人生version升级.md",
+            "assets/Data/Life/Todo/todo/打电话 取消大陆电话流量.md"
           ]
         }
       ],
-      "colorfulGroups": false,
       "viewOptions": {
-        "openPageIn": "window",
+        "openPageIn": "tab",
         "openPageAfterCreate": false,
         "itemSize": "components--page-card-medium",
         "showPropertyName": false,
         "showAllProperties": false,
         "items": [],
         "cover": {
-          "type": "none",
-          "source": "specifySectionContent",
+          "type": "pageFirstImage",
+          "value": "",
           "fit": "contains",
-          "layout": "components--page-card-cover-landscape",
-          "position": "left",
-          "sourceValue": "## title"
+          "layout": "components--page-card-cover-landscape"
         },
-        "pinFiltersToMenuBar": false,
-        "showGrid": false,
-        "heightType": "auto",
-        "heightValue": 600
+        "headColumnWidth": "266",
+        "headColumnStatisticType": "count",
+        "pinFiltersToMenuBar": true
       },
+      "filter": {
+        "id": "bc9afa86-0c6d-4468-8401-583c2f7074d6",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "75cf6053-82c9-4c1f-a37e-eaedfedf7460",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "assets/Data/Life/Todo",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "TodoStatus",
+      "newPageLocation": {
+        "location": "assets/Data/Life/Todo/todo"
+      },
+      "newPageNameFormat": "{{date: YYYYMMDDHHmm}}",
       "groupStates": {
         "sort": "manual",
         "format": "none",
         "statics": [],
         "orders": [
-          "Main/resources/Life/Todo/todo",
-          "Main/resources/Life/Todo/doing",
-          "Main/resources/Life/Todo/done"
+          "__$uncategorizedGroup",
+          "TODO",
+          "DONE"
         ],
         "hiddens": [
-          "__$uncategorizedGroup",
-          "Main/resources/Life/Todo"
+          "__$uncategorizedGroup"
         ],
         "collapseds": []
       },
-      "filter": {
-        "id": "fb9e6b02-6836-45b7-8008-d94065deac34",
-        "type": "group",
-        "operator": "or",
-        "conditions": [
-          {
-            "id": "c2f450b0-cd67-4b54-a25b-a8af2ac1657d",
-            "type": "filter",
-            "operator": "equals",
-            "property": "type",
-            "value": "folder",
-            "conditions": []
-          },
-          {
-            "id": "8748e0b2-ca29-4f61-879e-0e582b1ac7ac",
-            "type": "filter",
-            "operator": "contains",
-            "property": "${file.parent}",
-            "value": "Main/resources/Life/Todo",
-            "conditions": []
-          }
-        ]
-      },
-      "defaultTemplate": "3735af7c-d0e4-4a68-8d3f-aef596c30a5b",
-      "groupBy": "${file.parent}",
       "sort": {
         "orders": [
           {
-            "id": "5c294889-b67f-410c-ae9d-6d3b7db7eb42",
+            "id": "34ea266f-9ecd-4cee-82f6-34df1dddecdb",
             "property": "${file.basename}",
             "direction": "asc",
             "disabled": true
           }
         ]
       },
-      "newPageLocation": {
-        "location": "Main/resources/Life/Todo/todo"
-      }
+      "defaultTemplate": "f768f4fc-33d3-471f-97d1-b90b7dbed37e",
+      "colorfulGroups": false
+    },
+    {
+      "id": "f87878bc-4452-40be-9dcd-6f914c60dfde",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-27T11:10:56.348Z",
+      "updateAt": "2024-12-27T11:10:56.348Z",
+      "components": [
+        {
+          "componentId": "3e9ea363-5efc-4325-a75d-9fbdf066ad0d"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "4622f9c8-34e1-4da3-935f-e9bffda96b52",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-12-27T11:12:12.795Z",
+      "updateAt": "2024-12-27T11:12:12.795Z",
+      "repeatType": "monthly",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": true,
+      "endDayOfWeek": 0,
+      "endHour": 14,
+      "endMinute": 0,
+      "endSecond": 0,
+      "title": "距離xxx還有",
+      "endDayOfMonth": 20,
+      "timeTextPattern": "d"
     }
   ],
-  "rootComponentId": "4964ceeb-1081-4c17-8173-e539ec983cce"
+  "rootComponentId": "c85cbda2-e747-420e-b54f-bd67a3a302bd"
 }

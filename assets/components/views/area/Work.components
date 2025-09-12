@@ -12,7 +12,72 @@
       "updateAt": "2025-06-26T15:46:06.985Z",
       "components": [
         {
-          "componentId": "760bcf30-bb89-4ec4-b9b3-e460620f0d93"
+          "componentId": "760bcf30-bb89-4ec4-b9b3-e460620f0d93",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "a17e01ee-50f3-4501-b06d-f3efb1737cce",
+          "layout": {
+            "mobile": {
+              "x": 2,
+              "y": 0,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "f0a02ec6-c0cc-4fd0-b583-b1acf1fd5731",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 11
+            },
+            "laptop": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "8bf94692-b55b-4ba1-a86a-9f215c13a5ce",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 2,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 12,
+              "w": 4,
+              "h": 4
+            }
+          }
         }
       ],
       "layoutType": "grid",
@@ -39,6 +104,70 @@
         "options": {
           "filePath": "assets/components/views/area/小紅書.components",
           "fileName": "小紅書.components"
+        }
+      }
+    },
+    {
+      "id": "a17e01ee-50f3-4501-b06d-f3efb1737cce",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-07-14T00:57:21.135Z",
+      "updateAt": "2025-07-14T00:57:21.135Z",
+      "title": "shared resources",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "cf4f0e78-b546-458e-86ec-039e996a096e",
+        "options": {
+          "url": "",
+          "filePath": "assets/useful-resource-share/docs/AI/AI Platform.md",
+          "fileName": "AI Platform.md",
+          "openPageIn": "window"
+        }
+      },
+      "icon": "Book"
+    },
+    {
+      "id": "f0a02ec6-c0cc-4fd0-b583-b1acf1fd5731",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-07-20T16:38:20.683Z",
+      "updateAt": "2025-07-20T16:38:20.683Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/components/form/monthly/Housekeeping counting.md"
+    },
+    {
+      "id": "8bf94692-b55b-4ba1-a86a-9f215c13a5ce",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-07-25T23:58:13.621Z",
+      "updateAt": "2025-07-25T23:58:13.621Z",
+      "title": "大阪20250802 資料",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "5b5d08c1-ee08-472d-aa16-be0672f04c17",
+        "options": {
+          "filePath": "Main/JCI/JCI Suita/JCI SUITA 大阪Dream爆機 資料.md",
+          "fileName": "JCI SUITA 大阪Dream爆機 資料.md"
         }
       }
     }

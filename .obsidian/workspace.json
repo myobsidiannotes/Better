@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7fdcdd060b08454a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "952ee018b6f20fcc",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,57 +22,44 @@
             }
           },
           {
-            "id": "0266b84215651c19",
+            "id": "d8518e5948b15fde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main/Mine/Useful tools and resources/Software.md",
+                "file": "assets/Data/Life/Todo/todo/3D打印机.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Software"
-            }
-          },
-          {
-            "id": "7a7fd0cb29df9899",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Notes/Kanban/Main Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Main Kanban"
+              "title": "3D打印机"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6198d0297578086a",
+    "id": "a365928ceea1cf28",
     "type": "split",
     "children": [
       {
-        "id": "11d3683b9f3d8e1b",
+        "id": "65ee3125378ef695",
         "type": "tabs",
         "children": [
           {
-            "id": "f05b6daca1261e95",
+            "id": "6a3c569e490f2fa1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          },
+          {
+            "id": "c7a98e721ca7e8ae",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -81,40 +68,31 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
-            "id": "f71efd59d6e6f3c0",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "檔案瀏覽器"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "right": {
-    "id": "d0e955a247efcd70",
+    "id": "a7e0f0a1a8a2c2db",
     "type": "split",
     "children": [
       {
-        "id": "fc65229d6dcb1ba9",
+        "id": "59338b4986461d8a",
         "type": "tabs",
         "children": [
           {
-            "id": "b468ca3976d0425b",
+            "id": "e4898c9a41c93b5c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "obsid",
+                "query": "microsoft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,11 +100,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "搜尋"
             }
           },
           {
-            "id": "b80a9de91ee74dbb",
+            "id": "9ae85cd502cf70c2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,31 +115,31 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "標籤"
             }
           },
           {
-            "id": "6e3298ddb466e2bc",
+            "id": "695b8130c1017870",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "components/view/Test.components",
+                "file": "Notes/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test"
+              "title": "Notes 的大綱"
             }
           },
           {
-            "id": "e0a3eb9a46cfce35",
+            "id": "cc7ad6d6b18347bc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Daily news.md",
+                "file": "Notes/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,92 +149,93 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily news 的反向链接列表"
+              "title": "Notes 的反向連結"
             }
           },
           {
-            "id": "b1581be26f826779",
+            "id": "3aa4aae6ba8a3cca",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily news.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily news 的出链列表"
+              "title": "對外連結"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "remotely-save:Remotely Save": false,
-      "graph:查看关系图谱": false,
-      "switcher:打开快速切换": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
-      "templates:插入模板": false,
+      "bases:建立新的 base": false,
       "homepage:Open homepage": false,
-      "obsidian-kanban:创建新看板": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "random-note:開始漫遊筆記": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0266b84215651c19",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Notes/Kanban/Main Kanban.md",
+    "assets/Data/Life/Todo/todo/3D打印机.md",
     "Home.components",
-    "Main/Mine/Useful tools and resources/Software.md",
-    "assets/components/views/area/Work.components",
-    "assets/Pages/area/小紅書.md",
-    "assets/components/views/area/小紅書.components",
-    "Main/Mine/文字/情感/Notes/小紅書 - 2025-07-01.md",
-    "assets/components/views/area/Notes.components",
-    "assets/components/views/interest/interest-index.components",
-    "assets/components/views/Life/Journal.components",
-    "assets/Pages/area/旅遊.md",
-    "assets/components/views/area/旅游.components",
-    "assets/Data/Life/Traval/日本沖繩 20240918-0922.md",
-    "assets/Data/Life/Traval/廣融滑雪 20241214-1215.md",
-    "assets/Data/Life/Traval/廣融滑雪 20250131-0202.md",
-    "assets/Data/Life/Traval/廣融滑雪 20250329-0330.md",
-    "assets/Data/Life/Traval/廣融滑雪 20250517-0518.md",
-    "assets/Data/Life/Journal/day/2025-07-01.md",
-    "assets/components/form/Create/Life/Journal.cform",
-    "assets/template/Life/Journal template.md",
+    "assets/Pages/interest/鼓.md",
     "assets/components/views/interest/interest-statistics.components",
-    "Notes/2025-07-01.md",
-    "assets/components/form/Create/Interest/練鼓.cform",
-    "assets/Data/Interest/Drum/2025-07-01.md",
-    "assets/template/Interest/滑雪日志 模板.md",
-    "assets/Data/Interest/Ski/No. hi-.md",
-    "assets/Data/Interest/Diving/No. hi-.md",
-    "assets/template/Interest/潛水日志 模板.md",
-    "assets/Data/Interest/Diving/No. hi-3.md",
-    "assets/template/Interest/學鼓日志 模板.md",
-    "assets/Data/Interest/Drum/2025-06-21.md",
-    "assets/Data/Interest/Drum/2025-06-24.md",
-    "assets/Data/Interest/Drum/2025-06-29.md",
-    "assets/Data/Interest/Drum/2022-12-28.md",
-    "assets/Data/Interest/Drum/2023-03-09.md",
-    "assets/Data/Interest/Drum/2023-06-07.md",
-    "assets/Better library.library/images/MCDKOU97WUEOS.info/Deepseek7个爆款文案生成指令_5_AI创收实验室_来自小红书网页版_thumbnail.png",
-    "assets/Better library.library/images/MCDKOU972WOI6.info/Deepseek7个爆款文案生成指令_4_AI创收实验室_来自小红书网页版_thumbnail.png",
-    "assets/Better library.library/images/MCDKOU962OH5D.info/Deepseek7个爆款文案生成指令_2_AI创收实验室_来自小红书网页版_thumbnail.png",
-    "assets/Better library.library/images/MCDKOU962OH5D.info/Deepseek7个爆款文案生成指令_2_AI创收实验室_来自小红书网页版.jpg",
-    "assets/Better library.library/images/MCDKOU972WOI6.info/Deepseek7个爆款文案生成指令_4_AI创收实验室_来自小红书网页版.jpg",
-    "assets/Better library.library/images/MCDKOU97WUEOS.info/Deepseek7个爆款文案生成指令_5_AI创收实验室_来自小红书网页版.jpg",
-    "assets/Better library.library/images/MCDKOU96TNCFG.info/Deepseek7个爆款文案生成指令_3_AI创收实验室_来自小红书网页版_thumbnail.png",
-    "assets/Better library.library/images/MCDKOU96TNCFG.info/Deepseek7个爆款文案生成指令_3_AI创收实验室_来自小红书网页版.jpg",
-    "未命名.canvas",
-    "assets/Better library.library/images/MCC64VIZ1ALC3.info/layout-icons.png",
-    "assets/Better library.library/images/MCC5THG8H3AHJ.info/精神内耗的人都有一个特点：怕！_1_秋洺高效成长_来自小红书网页版_thumbnail.png"
+    "assets/components/views/interest/interest-index.components",
+    "assets/Data/Interest/Drum/2025-09-04.md",
+    "assets/Pages/area/Todo.md",
+    "assets/components/views/Life/Journal.components",
+    "assets/Data/Interest/Drum/2025-09-09.md",
+    "assets/Data/Life/Todo/todo/26年year plan.md",
+    "assets/components/views/area/小紅書.components",
+    "assets/components/views/area/Work.components",
+    "assets/useful-resource-share/docs/AI/AI Platform.md",
+    "assets/Data/Interest/Drum/2025-09-01.md",
+    "Home 1.components",
+    "Home 1 .components",
+    "assets/Data/Interest/Drum/2025-08-27.md",
+    "assets/Data/Interest/Drum/2025-08-21.md",
+    "Home.components副本",
+    "Notes/Kanban/Main Kanban.md",
+    "assets/Data/Life/Todo/todo/obsidian with n8n（personal database search/obsidian with n8n（personal database search personal AI）.md",
+    "assets/Data/Life/Todo/todo/obsidian with n8n（personal database search",
+    "Notes/Kanban/Kanban_notes/文章方向.md",
+    "Notes/Kanban/Kanban_notes/Write some paragraphs about the emotion, value, improvement, growth.md",
+    "assets/Data/Life/Todo/todo/Obsidian working page.md",
+    "assets/Data/Life/Todo/todo/Obsidian 游戏人生version升级.md",
+    "assets/Data/Life/Todo/todo/打电话 取消大陆电话流量.md",
+    "assets/Data/Life/Todo/todo/MyJC Obsidian.md",
+    "assets/Data/Life/Todo/todo/Ocean 2026 bod 溫習.md",
+    "assets/template/Life/Todo template.md",
+    "assets/template/Work/Todo template.md",
+    "assets/Data/Life/Todo/todo/yoyoyo.md",
+    "assets/template/Life/Todo.md",
+    "assets/Data/Life/Todo/20250828091930.md",
+    "Main/Useful tools and resources/Username password.md",
+    "assets/Better library.library/images/MAY64MM1MXNNN.info/OW课程教材_thumbnail.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-23 16.49.28 1.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.23.38.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.22.44.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.27.07.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.36.29.png",
+    "assets/Better library.library/images/MEPQEJ5C07GAU.info/螢幕截圖 2025-08-24 21.22.44.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.22.11.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 01.20.38.png",
+    "assets/useful-resource-share/docs/assets/images/螢幕截圖 2025-08-24 21.26.19.png",
+    "Notes/Untitled.canvas"
   ]
 }

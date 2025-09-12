@@ -1,15 +1,15 @@
 {
   "mySetting": "default",
   "port": 6060,
-  "libraryPath": "C:\\Users\\user\\Documents\\Obsidian\\Better\\assets\\Better library.library",
+  "libraryPath": "/Users/likelitchi/Documents/Obsidian/Better/assets/Better library.library",
   "folderId": "",
-  "clickView": false,
+  "clickView": true,
   "adaptiveRatio": 0.8,
   "advancedID": false,
   "obsidianStoreId": "",
   "websiteUpload": false,
   "libraryPaths": [
-    "C:\\Users\\user\\Documents\\Obsidian\\Better\\assets\\Better library.library"
+    "/Users/likelitchi/Documents/Obsidian/Better/assets/Better library.library"
   ],
   "debug": false,
   "openInObsidian": "newPage"

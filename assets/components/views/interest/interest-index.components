@@ -160,13 +160,14 @@
       "coverFit": "cover",
       "coverPosition": "left",
       "clickAction": {
-        "type": "CreateFile",
+        "type": "OpenForm",
         "id": "ea4bc321-4f79-415d-b13c-faad26332899",
         "options": {
           "templateFilePath": "assets/template/Interest/練鼓日志 模板.md",
-          "fileName": "{{date: YYYY-MM-DD}}",
+          "fileName": "練鼓.cform",
           "targetFolder": "assets/Data/Interest/Drum",
-          "openPageIn": "tab"
+          "openPageIn": "tab",
+          "filePath": "assets/components/form/Create/Interest/練鼓.cform"
         }
       },
       "icon": "Drum"

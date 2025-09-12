@@ -121,7 +121,8 @@
           "isShow": true,
           "wrap": false,
           "options": {
-            "width": "193"
+            "width": "193",
+            "statisticType": "count"
           }
         },
         {
@@ -272,6 +273,14 @@
               "property": "活動日期",
               "value": null,
               "conditions": []
+            },
+            {
+              "id": "c1d6c2a3-8c91-4b05-8dc3-06217e97a3fc",
+              "type": "filter",
+              "operator": "greater_than",
+              "property": "潛水時長 (Min)",
+              "value": "1",
+              "conditions": []
             }
           ]
         },
@@ -352,7 +361,7 @@
       "pictureFit": "cover",
       "picturePosition": "left",
       "timeTextPattern": "yMdHms",
-      "startDateTime": "2024-09-19 00:00:00",
+      "startDateTime": "2025-08-09 00:00:00",
       "title": "距離上一次潛水已經",
       "picture": "assets/Better library.library/images/MAL8SJ6FXLQN0.info/沖繩-海龜.jpg",
       "pictureBlurDegree": "0"

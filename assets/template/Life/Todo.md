@@ -3,8 +3,8 @@ tags:
   - todo
 status: TODO
 createTime: "{{date}}"
-doneTime: 
-area: "[[Todo]]"
+doneTime:
+area: "[[assets/template/Life/Todo]]"
 ---
 - [ ] xxx
 - [ ] xxx

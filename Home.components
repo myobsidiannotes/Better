@@ -15,15 +15,15 @@
           "componentId": "07c5af35-afdc-4dae-89a1-e7b9851cf458",
           "layout": {
             "mobile": {
-              "x": 0,
-              "y": 10,
-              "w": 4,
-              "h": 5
+              "x": 2,
+              "y": 25,
+              "w": 2,
+              "h": 3
             },
             "laptop": {
-              "x": 0,
-              "y": 9,
-              "w": 12,
+              "x": 6,
+              "y": 18,
+              "w": 2,
               "h": 4
             }
           }
@@ -33,15 +33,15 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 7,
+              "y": 25,
               "w": 2,
               "h": 3
             },
             "laptop": {
               "x": 0,
-              "y": 6,
-              "w": 6,
-              "h": 3
+              "y": 18,
+              "w": 2,
+              "h": 4
             }
           }
         },
@@ -50,32 +50,15 @@
           "layout": {
             "mobile": {
               "x": 2,
-              "y": 15,
+              "y": 28,
               "w": 2,
               "h": 4
             },
             "laptop": {
-              "x": 3,
-              "y": 13,
-              "w": 3,
+              "x": 4,
+              "y": 18,
+              "w": 2,
               "h": 4
-            }
-          }
-        },
-        {
-          "componentId": "13e0da4c-92c3-4dc5-b91b-77cdab1c2fcb",
-          "layout": {
-            "mobile": {
-              "x": 0,
-              "y": 0,
-              "w": 4,
-              "h": 7
-            },
-            "laptop": {
-              "x": 0,
-              "y": 0,
-              "w": 12,
-              "h": 6
             }
           }
         },
@@ -84,14 +67,14 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 15,
+              "y": 28,
               "w": 2,
               "h": 4
             },
             "laptop": {
-              "x": 0,
-              "y": 13,
-              "w": 3,
+              "x": 2,
+              "y": 18,
+              "w": 2,
               "h": 4
             }
           }
@@ -101,13 +84,13 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 27,
+              "y": 40,
               "w": 4,
               "h": 8
             },
             "laptop": {
               "x": 0,
-              "y": 21,
+              "y": 26,
               "w": 12,
               "h": 10
             }
@@ -118,14 +101,14 @@
           "layout": {
             "mobile": {
               "x": 2,
-              "y": 19,
+              "y": 32,
               "w": 2,
               "h": 4
             },
             "laptop": {
-              "x": 9,
-              "y": 13,
-              "w": 3,
+              "x": 10,
+              "y": 18,
+              "w": 2,
               "h": 4
             }
           }
@@ -135,13 +118,13 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 35,
+              "y": 48,
               "w": 4,
               "h": 9
             },
             "laptop": {
               "x": 4,
-              "y": 31,
+              "y": 36,
               "w": 8,
               "h": 8
             }
@@ -152,13 +135,13 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 44,
+              "y": 57,
               "w": 2,
               "h": 5
             },
             "laptop": {
               "x": 0,
-              "y": 31,
+              "y": 36,
               "w": 4,
               "h": 4
             }
@@ -169,13 +152,13 @@
           "layout": {
             "mobile": {
               "x": 2,
-              "y": 44,
+              "y": 57,
               "w": 2,
               "h": 5
             },
             "laptop": {
               "x": 0,
-              "y": 35,
+              "y": 40,
               "w": 4,
               "h": 4
             }
@@ -186,32 +169,15 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 19,
+              "y": 32,
               "w": 2,
               "h": 4
             },
             "laptop": {
-              "x": 6,
-              "y": 13,
-              "w": 3,
-              "h": 4
-            }
-          }
-        },
-        {
-          "componentId": "b0168069-01b8-489a-8055-1e54fd78f9c5",
-          "layout": {
-            "mobile": {
-              "x": 2,
-              "y": 7,
+              "x": 8,
+              "y": 18,
               "w": 2,
-              "h": 3
-            },
-            "laptop": {
-              "x": 6,
-              "y": 6,
-              "w": 6,
-              "h": 3
+              "h": 4
             }
           }
         },
@@ -220,15 +186,49 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 23,
+              "y": 36,
               "w": 4,
               "h": 4
             },
             "laptop": {
               "x": 0,
-              "y": 17,
+              "y": 22,
               "w": 12,
               "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "3c3e2ee7-bce2-4e34-82e5-4951cdd74fcf",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 3
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 3
+            }
+          }
+        },
+        {
+          "componentId": "016b6010-5448-4ed7-889a-b4086dd8387e",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 3,
+              "w": 4,
+              "h": 22
+            },
+            "laptop": {
+              "x": 0,
+              "y": 3,
+              "w": 12,
+              "h": 15
             }
           }
         }
@@ -290,7 +290,8 @@
           "fileName": "Journal.cform"
         }
       },
-      "icon": "CalendarPlus"
+      "icon": "CalendarPlus",
+      "borderColor": "#bcbcbc"
     },
     {
       "id": "245e6141-e5bd-46e0-8a53-bac33f85077f",
@@ -314,13 +315,14 @@
           "commandName": "折叠/展开右侧边栏",
           "expression": "switchLightDark()",
           "templateFilePath": "assets/template/Work/notes template.md",
-          "fileName": "New Notes.cform",
+          "fileName": "Notes.cform",
           "targetFolder": "Notes",
           "openPageIn": "tab",
-          "filePath": "assets/components/form/New Notes.cform"
+          "filePath": "assets/components/form/Create/Notes.cform"
         }
       },
-      "icon": "Inbox"
+      "icon": "Inbox",
+      "borderColor": "#bcbcbc"
     },
     {
       "id": "dadd38e7-696e-4dfc-8f00-3a253507a746",
@@ -348,23 +350,6 @@
       "icon": "NotebookPen",
       "backgroundColor": "#913fd1b3",
       "fontColor": "#ffffff"
-    },
-    {
-      "id": "13e0da4c-92c3-4dc5-b91b-77cdab1c2fcb",
-      "type": "dateProgress",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": false,
-      "showShadow": true,
-      "createAt": "2025-05-12T16:11:10.257Z",
-      "updateAt": "2025-05-12T16:11:10.257Z",
-      "showDateIndicator": true,
-      "showProgressIndicator": true,
-      "startDateTimeType": "$startOfYear",
-      "endDateTimeType": "$endOfYear",
-      "uiType": "bar",
-      "title": "2025"
     },
     {
       "id": "13b51ecf-9cd0-4743-905e-fe0e30a28d56",
@@ -629,36 +614,6 @@
       "fontColor": "#ffffff"
     },
     {
-      "id": "b0168069-01b8-489a-8055-1e54fd78f9c5",
-      "type": "card",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-12-13T04:18:15.532Z",
-      "updateAt": "2024-12-13T04:18:15.532Z",
-      "title": "Kanban",
-      "description": "",
-      "coverFit": "cover",
-      "coverPosition": "top",
-      "clickAction": {
-        "type": "OpenFile",
-        "id": "349e556d-ad8c-4e54-bd91-f1a942563945",
-        "options": {
-          "commandId": "daily-notes",
-          "commandName": "日记: 打开/创建今天的日记",
-          "templateFilePath": "resource/template/工作/工作项目模板.md",
-          "fileName": "Main Kanban.md",
-          "targetFolder": "area/work/研发",
-          "openPageIn": "tab",
-          "filePath": "Notes/Kanban/Main Kanban.md"
-        }
-      },
-      "icon": "ListTodo",
-      "cover": ""
-    },
-    {
       "id": "575005e0-fe8d-4387-a1be-784f0df5abd0",
       "type": "card",
       "titleAlign": "center",
@@ -684,6 +639,43 @@
       "backgroundColor": "#607d8b",
       "fontColor": "#ffffff",
       "icon": "ChartNetwork"
+    },
+    {
+      "id": "3c3e2ee7-bce2-4e34-82e5-4951cdd74fcf",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": true,
+      "createAt": "2025-08-26T16:32:21.329Z",
+      "updateAt": "2025-08-26T16:32:21.329Z",
+      "title": "每天進步1%",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "2b08beb1-ff60-47b5-850d-2a2cb904270e",
+        "options": {}
+      },
+      "fontColor": "#c29d06",
+      "borderColor": "#c29d06"
+    },
+    {
+      "id": "016b6010-5448-4ed7-889a-b4086dd8387e",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-30T00:56:08.422Z",
+      "updateAt": "2025-08-30T00:56:08.422Z",
+      "maxHeight": 900,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/Pages/area/Todo.md"
     }
   ],
   "rootComponentId": "cb8bee17-a1df-4ae2-950a-5d487637c6c1"

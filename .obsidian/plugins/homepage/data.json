@@ -7,7 +7,7 @@
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
-      "view": "Default view",
+      "view": "Reading view",
       "revertView": true,
       "openWhenEmpty": true,
       "refreshDataview": false,
@@ -15,7 +15,7 @@
       "autoScroll": false,
       "pin": true,
       "commands": [],
-      "alwaysApply": false,
+      "alwaysApply": true,
       "hideReleaseNotes": false
     }
   },

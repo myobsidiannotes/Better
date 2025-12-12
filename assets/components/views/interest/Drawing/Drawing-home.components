@@ -1,0 +1,20 @@
+{
+  "components": [
+    {
+      "id": "9c11fb2d-f827-43de-9dbd-83d988e315d3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-10-05T12:00:19.152Z",
+      "updateAt": "2025-10-05T12:00:19.152Z",
+      "components": [],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    }
+  ],
+  "rootComponentId": "9c11fb2d-f827-43de-9dbd-83d988e315d3"
+}

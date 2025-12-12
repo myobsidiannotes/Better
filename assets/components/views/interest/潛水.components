@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2025-05-09T18:08:40.187Z",
       "updateAt": "2025-05-09T18:08:40.187Z",
@@ -233,7 +233,8 @@
           }
         ]
       },
-      "groupBy": ""
+      "groupBy": "",
+      "showTitle": false
     },
     {
       "id": "0182c156-b1b7-4140-9be5-f4a8be0bc21d",
@@ -424,5 +425,6 @@
       "title": "潛水熱力圖"
     }
   ],
-  "rootComponentId": "574e6576-efe3-4d33-be34-7dffa8f1c45a"
+  "rootComponentId": "574e6576-efe3-4d33-be34-7dffa8f1c45a",
+  "version": 3
 }

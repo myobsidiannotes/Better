@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2025-05-13T01:00:13.078Z",
       "updateAt": "2025-05-13T01:00:13.078Z",
@@ -309,7 +309,8 @@
             "disabled": false
           }
         ]
-      }
+      },
+      "showTitle": false
     },
     {
       "id": "5d279560-5bb2-42a5-968e-0f2f9ac764c9",
@@ -777,5 +778,6 @@
       }
     }
   ],
-  "rootComponentId": "3c1327c0-1b64-494c-a51e-a03e7c0c4ef3"
+  "rootComponentId": "3c1327c0-1b64-494c-a51e-a03e7c0c4ef3",
+  "version": 3
 }

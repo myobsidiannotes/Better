@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2025-05-13T06:31:22.199Z",
       "updateAt": "2025-05-13T06:31:22.199Z",
@@ -339,5 +339,6 @@
       "title": "興趣活動熱力圖"
     }
   ],
-  "rootComponentId": "a6f0789b-bc10-4e40-8682-92cfdfa2f377"
+  "rootComponentId": "a6f0789b-bc10-4e40-8682-92cfdfa2f377",
+  "version": 3
 }

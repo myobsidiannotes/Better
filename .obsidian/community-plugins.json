@@ -10,10 +10,11 @@
   "obsidian-kanban",
   "obsidian-link-embed",
   "obsidian-auto-link-title",
-  "components",
   "form-flow",
   "dataview",
   "obsidian-admonition",
   "obsidian-columns",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "obsidian-read-it-later",
+  "components"
 ]

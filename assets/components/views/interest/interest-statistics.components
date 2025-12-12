@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2025-05-13T06:42:18.358Z",
       "updateAt": "2025-05-13T06:42:18.358Z",
@@ -227,5 +227,6 @@
       "markdownValue": "assets/Pages/interest/鼓.md"
     }
   ],
-  "rootComponentId": "27b2f9d1-8ef5-4299-8cff-7324083bdf31"
+  "rootComponentId": "27b2f9d1-8ef5-4299-8cff-7324083bdf31",
+  "version": 3
 }

@@ -33,30 +33,13 @@
           "layout": {
             "mobile": {
               "x": 2,
-              "y": 0,
+              "y": 8,
               "w": 2,
               "h": 4
             },
             "laptop": {
               "x": 0,
               "y": 4,
-              "w": 4,
-              "h": 4
-            }
-          }
-        },
-        {
-          "componentId": "f0a02ec6-c0cc-4fd0-b583-b1acf1fd5731",
-          "layout": {
-            "mobile": {
-              "x": 0,
-              "y": 8,
-              "w": 4,
-              "h": 11
-            },
-            "laptop": {
-              "x": 0,
-              "y": 8,
               "w": 4,
               "h": 4
             }
@@ -67,13 +50,30 @@
           "layout": {
             "mobile": {
               "x": 0,
-              "y": 4,
+              "y": 8,
               "w": 2,
               "h": 4
             },
             "laptop": {
+              "x": 4,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "fb754c40-922f-4a15-88b6-d8c66b5ba0ca",
+          "layout": {
+            "mobile": {
               "x": 0,
-              "y": 12,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 4,
+              "y": 0,
               "w": 4,
               "h": 4
             }
@@ -134,21 +134,6 @@
       "icon": "Book"
     },
     {
-      "id": "f0a02ec6-c0cc-4fd0-b583-b1acf1fd5731",
-      "type": "markdown",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2025-07-20T16:38:20.683Z",
-      "updateAt": "2025-07-20T16:38:20.683Z",
-      "maxHeight": 300,
-      "contentAlign": "left",
-      "markdownsSource": "file",
-      "markdownValue": "assets/components/form/monthly/Housekeeping counting.md"
-    },
-    {
       "id": "8bf94692-b55b-4ba1-a86a-9f215c13a5ce",
       "type": "card",
       "titleAlign": "center",
@@ -169,6 +154,26 @@
           "filePath": "Main/JCI/JCI Suita/JCI SUITA 大阪Dream爆機 資料.md",
           "fileName": "JCI SUITA 大阪Dream爆機 資料.md"
         }
+      }
+    },
+    {
+      "id": "fb754c40-922f-4a15-88b6-d8c66b5ba0ca",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-10-05T11:59:13.026Z",
+      "updateAt": "2025-10-05T11:59:13.026Z",
+      "title": "畫畫",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "1f4a94cc-92e0-4a87-9306-2f80a5ac2542",
+        "options": {}
       }
     }
   ],

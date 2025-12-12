@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="467.63791"
+   height="180.85793"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="sin-cos-tan1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     objecttolerance="10000"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4025347"
+     inkscape:cx="241.84481"
+     inkscape:cy="87.679033"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     showgrid="false"
+     inkscape:window-maximized="1"
+     showborder="true" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4842"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4732"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4833"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4836"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(418.82556,393.5446)">
+    <rect
+       ry="32.405666"
+       y="-388.81335"
+       x="-418.82556"
+       height="171.27196"
+       width="189.34673"
+       id="rect9566"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.12000002;fill:#0197fd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path1874"
+       d="m 1.8235618,-255.78992 -201.4369118,0 201.2236088,-111.61155 0.213303,111.61155 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#0000ff;stroke-width:1.60071325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="scale(1.000305,0.99969509)"
+       x="-113.38583"
+       y="-271.07559"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.05310059px;line-height:125%;font-family:'Comic Sans MS';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:2.53299928;stroke-miterlimit:9;stroke-dasharray:none"
+       id="text1484"
+       sodipodi:linespacing="125%">θ</text>
+    <path
+       sodipodi:open="true"
+       sodipodi:end="6.2574135"
+       sodipodi:start="5.8030456"
+       d="m -130.88768,-290.67616 a 75.090607,75.090607 0 0 1 8.46553,32.74958"
+       sodipodi:ry="75.090607"
+       sodipodi:rx="75.090607"
+       sodipodi:cy="-255.99158"
+       sodipodi:cx="-197.48782"
+       id="path3782"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.60071337;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -200.67157,-222.0011 0,-25.44593"
+       id="path5015"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2.2268521,-222.13738 0,-25.44592"
+       id="path5017"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.72032118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -0.63414667,-236.10664 -197.92489333,0"
+       id="path5021"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017828px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -204.81789,-258.98679 -11.29413,-20.76074"
+       id="path5922"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017828px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -0.6634651,-372.68824 -11.9576,-393.44898"
+       id="path5924"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.72032094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="M -9.7432569,-382.48373 -208.95236,-271.67784"
+       id="path5926"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017819px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.812341,-254.28263 -42.3672552,0"
+       id="path5928"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40017819px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.585442,-366.54458 -42.3672618,0"
+       id="path5930"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.72032052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 34.706765,-364.96161 0,109.51014"
+       id="path5932"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.87572186,-0.48281592,0.48281592,0.87572186,0,0)"
+       sodipodi:linespacing="125%"
+       id="text5934"
+       y="-347.6272"
+       x="39.660805"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00716972px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ce5c00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-347.6272"
+         x="39.660805"
+         id="tspan5936"
+         sodipodi:role="line">斜边</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5942"
+       y="27.19475"
+       x="291.86841"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#c4a000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         y="27.19475"
+         x="291.86841"
+         id="tspan5944"
+         sodipodi:role="line">对边</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5938"
+       y="-217.35281"
+       x="-119.282"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#3465a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-217.35281"
+         x="-119.282"
+         id="tspan5940"
+         sodipodi:role="line">邻边</tspan></text>
+    <path
+       id="path7724"
+       d="m -20.774551,-256.22754 0,-21.863 21.50877447,0"
+       style="fill:none;stroke:#000000;stroke-width:1.60071325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8613"
+       y="-355.70242"
+       x="-403.58493"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#6600cc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-355.70242"
+         x="-403.58493"
+         id="tspan9536"
+         sodipodi:role="line">sin θ = </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text8623"
+       y="-344.01852"
+       x="-313.1507"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#d0630b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-344.01852"
+         x="-313.1507"
+         id="tspan8627"
+         sodipodi:role="line">斜边</tspan></text>
+    <path
+       id="path8631"
+       d="m -343.07972,-358.36616 91.9207,0"
+       style="fill:none;stroke:#000000;stroke-width:0.80035663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text9518"
+       y="-364.82288"
+       x="-312.88049"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#c4a000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-364.82288"
+         x="-312.88049"
+         id="tspan9520"
+         sodipodi:role="line">对边</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9522"
+       y="-304.22626"
+       x="-407.33658"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#6600cc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-304.22626"
+         x="-407.33658"
+         id="tspan9534"
+         sodipodi:role="line">cos θ = </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9526"
+       y="-252.22084"
+       x="-407.02396"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#6600cc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-252.22084"
+         x="-407.02396"
+         id="tspan9532"
+         sodipodi:role="line">tan θ = </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9538"
+       y="-293.6904"
+       x="-315.1507"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#d0630b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-293.6904"
+         x="-315.1507"
+         id="tspan9540"
+         sodipodi:role="line">斜边</tspan></text>
+    <path
+       id="path9542"
+       d="m -343.07972,-308.03804 91.92069,0"
+       style="fill:none;stroke:#000000;stroke-width:0.80035663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path9552"
+       d="m -343.07972,-255.52865 91.9207,0"
+       style="fill:none;stroke:#000000;stroke-width:0.80035663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text9554"
+       y="-261.98538"
+       x="-316.88049"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#c4a000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-261.98538"
+         x="-316.88049"
+         id="tspan9556"
+         sodipodi:role="line">对边</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9558"
+       y="-314.0506"
+       x="-313.7637"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#3465a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-314.0506"
+         x="-313.7637"
+         id="tspan9560"
+         sodipodi:role="line">邻边</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text9562"
+       y="-239.0688"
+       x="-317.7637"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00713348px;line-height:125%;font-family:'Comic Sans MS';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#3465a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none"
+       xml:space="preserve"><tspan
+         y="-239.0688"
+         x="-317.7637"
+         id="tspan9564"
+         sodipodi:role="line">邻边</tspan></text>
+  </g>
+</svg>

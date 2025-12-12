@@ -1,16 +1,15 @@
+### Obsidian-EagleBridge
+- Github: https://github.com/zyjGraphein/Obsidian-EagleBridge
 
+### Components:
+- GitHub：[GitHub - obsidian-components/obsidian-components-release: Obsidian missing components](https://github.com/obsidian-components/obsidian-components-release)
+- 用於Brat直接下載： 
+	```
+	https://github.com/obsidian-components/obsidian-components-release
+	```
+- 功能說明： https://wxycbt0cjk.feishu.cn/wiki/F14cwgZrGiM3CxkekUxcEr5YnSg
 
-
-
-
-
-- Obsidian-EagleBridge
-	https://github.com/zyjGraphein/Obsidian-EagleBridge
-
-- Components:
-	https://wxycbt0cjk.feishu.cn/wiki/F14cwgZrGiM3CxkekUxcEr5YnSg
-
-
+### image-layout
 - image-layout
 	- image-layout-a
 	- image-layout-b

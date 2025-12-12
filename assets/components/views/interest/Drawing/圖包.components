@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "id": "9c11fb2d-f827-43de-9dbd-83d988e315d3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-10-05T12:00:19.152Z",
+      "updateAt": "2025-10-05T12:00:19.152Z",
+      "components": [
+        {
+          "componentId": "5765dcd3-e576-474d-90e3-0102280107e7"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "5765dcd3-e576-474d-90e3-0102280107e7",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-10-05T12:01:35.419Z",
+      "updateAt": "2025-10-05T12:01:35.419Z",
+      "attachmentSource": "InSpecifiedFolder",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "Main/Mine/畫畫",
+      "sortField": "default",
+      "sortDirection": "asc"
+    }
+  ],
+  "rootComponentId": "9c11fb2d-f827-43de-9dbd-83d988e315d3"
+}

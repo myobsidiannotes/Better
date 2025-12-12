@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-05-13T08:01:51.193Z",
       "updateAt": "2024-05-13T08:01:51.193Z",
@@ -24,24 +24,7 @@
               "x": 0,
               "y": 0,
               "w": 12,
-              "h": 40
-            }
-          }
-        },
-        {
-          "componentId": "4622f9c8-34e1-4da3-935f-e9bffda96b52",
-          "layout": {
-            "mobile": {
-              "x": 0,
-              "y": 170,
-              "w": 4,
-              "h": 8
-            },
-            "laptop": {
-              "x": 0,
-              "y": 40,
-              "w": 12,
-              "h": 9
+              "h": 58
             }
           }
         }
@@ -252,8 +235,10 @@
         "statics": [],
         "orders": [
           "__$uncategorizedGroup",
+          "IN PROGRESS",
           "TODO",
-          "DONE"
+          "DONE",
+          "LONG TERM TODO"
         ],
         "hiddens": [
           "__$uncategorizedGroup"
@@ -271,7 +256,8 @@
         ]
       },
       "defaultTemplate": "f768f4fc-33d3-471f-97d1-b90b7dbed37e",
-      "colorfulGroups": false
+      "colorfulGroups": false,
+      "showTitle": false
     },
     {
       "id": "f87878bc-4452-40be-9dcd-6f914c60dfde",
@@ -279,7 +265,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-12-27T11:10:56.348Z",
       "updateAt": "2024-12-27T11:10:56.348Z",
@@ -291,29 +277,8 @@
       "layoutType": "tab",
       "locked": false,
       "layoutOptions": {}
-    },
-    {
-      "id": "4622f9c8-34e1-4da3-935f-e9bffda96b52",
-      "type": "countdown",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-12-27T11:12:12.795Z",
-      "updateAt": "2024-12-27T11:12:12.795Z",
-      "repeatType": "monthly",
-      "pictureFit": "cover",
-      "picturePosition": "left",
-      "showEndDateTime": true,
-      "endDayOfWeek": 0,
-      "endHour": 14,
-      "endMinute": 0,
-      "endSecond": 0,
-      "title": "距離xxx還有",
-      "endDayOfMonth": 20,
-      "timeTextPattern": "d"
     }
   ],
-  "rootComponentId": "c85cbda2-e747-420e-b54f-bd67a3a302bd"
+  "rootComponentId": "c85cbda2-e747-420e-b54f-bd67a3a302bd",
+  "version": 3
 }

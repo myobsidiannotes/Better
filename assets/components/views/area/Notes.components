@@ -6,7 +6,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2025-05-12T17:02:38.730Z",
       "updateAt": "2025-05-12T17:02:38.730Z",
@@ -129,8 +129,10 @@
       "newPageLocation": {
         "location": "Notes"
       },
-      "defaultTemplate": "3cbc4222-b545-4de8-9837-594819045c0e"
+      "defaultTemplate": "3cbc4222-b545-4de8-9837-594819045c0e",
+      "showTitle": false
     }
   ],
-  "rootComponentId": "f6d56adc-26ed-478d-a2cb-b2942da57209"
+  "rootComponentId": "f6d56adc-26ed-478d-a2cb-b2942da57209",
+  "version": 3
 }
